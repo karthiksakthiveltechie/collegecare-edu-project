@@ -1,0 +1,361 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Light theme informed by UI/UX Pro Max (github.com/nextlevelbuilder/ui-ux-pro-max-skill):
+  - Soft UI Evolution: subtle depth, 200–300ms transitions, improved contrast
+  - Accessible & Ethical: focus rings 3–4px, prefers-reduced-motion, WCAG AA+
+  - Education/Consulting palettes: trust blue, authority navy, warm CTA
+*/
+
+@layer base {
+  * {
+    @apply border-light-border dark:border-dark-border;
+  }
+  
+  body {
+    @apply font-body antialiased min-h-screen;
+    @apply bg-light-bg text-light-text;
+    @apply dark:bg-dark-bg dark:text-white;
+    background-image: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  /* Respect reduced motion (Accessible & Ethical – UI/UX Pro Max) */
+  @media (prefers-reduced-motion: reduce) {
+    body,
+    .glass-card,
+    .glass-card-hover,
+    .btn-primary-aurora,
+    .btn-secondary-aurora,
+    .btn-outline-aurora,
+    * {
+      transition-duration: 0.01s !important;
+      animation-duration: 0.01s !important;
+    }
+  }
+  /* Academic Aurora: heading hierarchy (light only) */
+  .section-divider {
+    @apply border-t border-light-borderSoft dark:border-dark-border;
+  }
+
+  body.dark,
+  .dark body {
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(0, 255, 255, 0.1) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, rgba(255, 0, 255, 0.1) 0px, transparent 50%),
+      radial-gradient(at 100% 100%, rgba(157, 0, 255, 0.1) 0px, transparent 50%),
+      radial-gradient(at 0% 100%, rgba(0, 255, 65, 0.1) 0px, transparent 50%);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply backdrop-blur-md rounded-lg border;
+    @apply bg-light-card border-light-border;
+    @apply dark:bg-dark-card dark:border-dark-border;
+    /* Soft UI Evolution: subtle depth, not flat (UI/UX Pro Max) */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04), 0 4px 12px rgba(0, 0, 0, 0.06);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: box-shadow 250ms ease, border-color 250ms ease;
+  }
+
+  .dark .glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: none;
+  }
+
+  .glass-card-hover {
+    @apply glass-card;
+    transition: box-shadow 250ms ease, border-color 250ms ease, transform 250ms ease;
+  }
+
+  .glass-card-hover:hover {
+    @apply border-light-primary dark:border-cyberpunk-cyan;
+    /* Softer than flat, human-friendly hover (Soft UI Evolution) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06), 0 8px 24px rgba(37, 99, 235, 0.12);
+  }
+
+  .dark .glass-card-hover:hover {
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(0, 255, 255, 0.3);
+  }
+
+  .neon-text {
+    text-shadow: 
+      0 0 5px currentColor,
+      0 0 10px currentColor,
+      0 0 15px currentColor,
+      0 0 20px currentColor;
+  }
+
+  .neon-border {
+    @apply border-2 border-cyberpunk-cyan;
+    box-shadow: 
+      0 0 5px rgba(0, 255, 255, 0.5),
+      inset 0 0 5px rgba(0, 255, 255, 0.1);
+  }
+
+  .neon-button {
+    @apply relative px-6 py-3 font-heading font-semibold text-white rounded-lg overflow-hidden transition-all duration-300;
+    background: linear-gradient(135deg, rgba(0, 255, 255, 0.2), rgba(255, 0, 255, 0.2));
+    border: 1px solid rgba(0, 255, 255, 0.5);
+  }
+
+  .neon-button::before {
+    content: '';
+    @apply absolute inset-0 opacity-0 transition-opacity duration-300;
+    background: linear-gradient(135deg, rgba(0, 255, 255, 0.4), rgba(255, 0, 255, 0.4));
+  }
+
+  .neon-button:hover::before {
+    @apply opacity-100;
+  }
+
+  .neon-button:hover {
+    @apply border-cyberpunk-cyan;
+    box-shadow: 
+      0 0 10px rgba(0, 255, 255, 0.6),
+      0 0 20px rgba(0, 255, 255, 0.4),
+      0 0 30px rgba(0, 255, 255, 0.2);
+    transform: translateY(-2px);
+  }
+
+  .neon-button:active {
+    transform: translateY(0);
+  }
+
+  .neon-button:focus {
+    @apply outline-none ring-2 ring-cyberpunk-cyan ring-offset-2 ring-offset-light-bg dark:ring-offset-dark-bg;
+  }
+  /* Academic Aurora: primary/secondary/outline (200–300ms per Soft UI Evolution) */
+  .btn-primary-aurora {
+    @apply bg-light-primary text-white hover:bg-light-primaryDark active:bg-light-primaryDeeper px-6 py-3 font-semibold rounded-lg;
+    transition: background-color 250ms ease, transform 250ms ease;
+  }
+  .btn-secondary-aurora {
+    @apply bg-light-accent text-white hover:bg-light-accentHover px-6 py-3 font-semibold rounded-lg;
+    transition: background-color 250ms ease, transform 250ms ease;
+  }
+  .btn-outline-aurora {
+    @apply border-2 border-light-primary text-light-primary hover:bg-light-submenuBg rounded-lg px-6 py-3 font-semibold;
+    transition: background-color 250ms ease, border-color 250ms ease, color 250ms ease;
+  }
+
+  .gradient-bg {
+    background: linear-gradient(135deg, 
+      rgba(0, 255, 255, 0.1) 0%,
+      rgba(255, 0, 255, 0.1) 50%,
+      rgba(157, 0, 255, 0.1) 100%);
+    background-size: 200% 200%;
+    animation: gradient 15s ease infinite;
+  }
+
+  /* Scrollable college lists - scrollbar on the right, thin where supported */
+  .college-list-scroll {
+    scrollbar-width: thin;
+    scrollbar-gutter: stable;
+  }
+  .college-list-scroll::-webkit-scrollbar {
+    width: 8px;
+  }
+  .college-list-scroll::-webkit-scrollbar-track {
+    @apply bg-light-bgAlt dark:bg-white/5;
+    border-radius: 4px;
+  }
+  .college-list-scroll::-webkit-scrollbar-thumb {
+    @apply bg-light-border dark:bg-cyberpunk-cyan/30;
+    border-radius: 4px;
+  }
+  .college-list-scroll::-webkit-scrollbar-thumb:hover {
+    @apply bg-light-primary dark:bg-cyberpunk-cyan/50;
+  }
+
+  .cyberpunk-input {
+    @apply px-4 py-3 rounded-lg border transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-light-primary focus:border-light-primary;
+    @apply bg-light-card dark:bg-dark-card border-light-border dark:border-dark-border;
+    @apply text-light-text dark:text-white placeholder-light-textMuted dark:placeholder-gray-400;
+  }
+
+  .cyberpunk-input:focus {
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+  }
+
+  .dark .cyberpunk-input {
+    @apply focus:ring-cyberpunk-cyan focus:border-cyberpunk-cyan;
+  }
+
+  .dark .cyberpunk-input:focus {
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+  }
+
+  /* Academic Aurora: H1 (Page Title) #1E3A8A for authority */
+  .section-title {
+    @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-bold mb-6;
+    @apply text-brand-college;
+  }
+
+  .dark .section-title {
+    @apply text-transparent bg-clip-text;
+    background-image: linear-gradient(135deg, #00FFFF, #FF00FF);
+  }
+  
+  /* Prevent section titles from breaking into multiple lines on larger screens */
+  @media (min-width: 640px) {
+    .section-title {
+      white-space: nowrap;
+    }
+  }
+  
+  /* On very small screens, allow wrapping but keep text smaller */
+  @media (max-width: 639px) {
+    .section-title {
+      font-size: 1.75rem;
+      line-height: 1.2;
+    }
+  }
+
+  .section-subtitle {
+    @apply text-xl md:text-2xl text-light-textMuted dark:text-gray-300 mb-8;
+  }
+
+  /* Academic Aurora: dropdown options */
+  select.search-filter-select option {
+    background: #FFFFFF;
+    color: #1E293B;
+  }
+  .dark select.search-filter-select option {
+    background: #1f2937;
+    color: #f3f4f6;
+  }
+}
+
+@layer utilities {
+  .text-cyberpunk-cyan {
+    color: #00FFFF;
+  }
+  
+  .text-cyberpunk-pink {
+    color: #FF00FF;
+  }
+  
+  .text-cyberpunk-green {
+    color: #00FF41;
+  }
+  
+  .text-cyberpunk-purple {
+    color: #9D00FF;
+  }
+  
+  .text-cyberpunk-orange {
+    color: #FF6B00;
+  }
+
+  .bg-grid-pattern {
+    background-image: 
+      linear-gradient(rgba(0, 255, 255, 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 255, 255, 0.1) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+
+  /* Hero: subtle geometric pattern (light theme) – reference “Scholar’s Key” style */
+  .hero-pattern {
+    background-color: transparent;
+  }
+  .hero-pattern::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      radial-gradient(circle at 20% 30%, rgba(30, 58, 138, 0.06) 0%, transparent 40%),
+      radial-gradient(circle at 80% 70%, rgba(124, 58, 237, 0.05) 0%, transparent 40%),
+      radial-gradient(circle at 50% 50%, rgba(245, 158, 11, 0.04) 0%, transparent 50%);
+    pointer-events: none;
+  }
+  .dark .hero-pattern::before {
+    background-image:
+      radial-gradient(circle at 20% 30%, rgba(0, 255, 255, 0.06) 0%, transparent 40%),
+      radial-gradient(circle at 80% 70%, rgba(255, 0, 255, 0.05) 0%, transparent 40%);
+  }
+
+  /* Tilted card – hero concern/benefit cards (reference layout) */
+  .tilted-card {
+    @apply glass-card p-4 rounded-xl;
+    transition: transform 250ms ease, box-shadow 250ms ease;
+  }
+  .tilted-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06), 0 8px 24px rgba(37, 99, 235, 0.12);
+  }
+  .dark .tilted-card:hover {
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+  }
+}
+
+/* Accessibility improvements (Accessible & Ethical – 3–4px focus, WCAG) */
+@layer base {
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-light-primary dark:outline-cyberpunk-cyan;
+  }
+
+  button:focus-visible,
+  a:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible {
+    @apply outline-2 outline-offset-2 outline-light-primary dark:outline-cyberpunk-cyan;
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-light-bgAlt dark:bg-dark-bg;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-light-border dark:bg-dark-card border border-light-border dark:border-dark-border rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-light-primary dark:bg-cyberpunk-cyan;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+/* Counselling enroll modal – form inputs */
+.counselling-input {
+  @apply px-4 py-2.5 rounded-lg border bg-light-bg dark:bg-dark-card text-light-text dark:text-white placeholder-gray-400;
+  @apply border-gray-300 dark:border-dark-border focus:outline-none focus:ring-2 focus:ring-[#FBBF24]/50 focus:border-[#FBBF24];
+}
+
+/* Counselling modal dropdowns: darker background and visible option list */
+select.counselling-input {
+  background-color: #334155;
+  color: #f8fafc;
+  border-color: #475569;
+}
+select.counselling-input option {
+  background-color: #334155;
+  color: #f8fafc;
+}
+.dark select.counselling-input {
+  background-color: #1f2937;
+  color: #f3f4f6;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+.dark select.counselling-input option {
+  background-color: #1f2937;
+  color: #f3f4f6;
+}

@@ -1,0 +1,73 @@
+[
+  {
+    "discipline_id": "arts-science",
+    "discipline_name": "Arts & Science",
+    "generated_at": "2026-02-17T08:14:53.406455",
+    "college_type_sections": [
+      {
+        "section_id": "arts_science_private_list",
+        "section_label": "Private",
+        "institutions": [
+          {
+            "id": "loyola-college",
+            "external_code": null,
+            "name": "Loyola College",
+            "source": "Autonomous",
+            "funding": "private",
+            "city": "Chennai",
+            "state": "Tamil Nadu",
+            "address": "Nungambakkam",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "christ-university",
+            "external_code": null,
+            "name": "Christ University",
+            "source": "Deemed",
+            "funding": "private",
+            "city": "Bengaluru",
+            "state": "Karnataka",
+            "address": "Hosur Road",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "section_id": "arts_science_state_list",
+        "section_label": "State",
+        "institutions": [
+          {
+            "id": "presidency-college",
+            "external_code": null,
+            "name": "Presidency College",
+            "source": "State Govt",
+            "funding": "state",
+            "city": "Chennai",
+            "state": "Tamil Nadu",
+            "address": "Kamarajar Salai",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "government-arts-college",
+            "external_code": null,
+            "name": "Government Arts College",
+            "source": "State Govt",
+            "funding": "state",
+            "city": "Coimbatore",
+            "state": "Tamil Nadu",
+            "address": "Race Course Road",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          }
+        ]
+      }
+    ]
+  }
+]

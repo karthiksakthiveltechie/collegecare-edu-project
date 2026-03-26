@@ -1,0 +1,65 @@
+{
+    "discipline": "Agriculture",
+    "sections": [
+        {
+            "sectionName": "State Universities",
+            "type": "State",
+            "institutions": [
+                {
+                    "No.": 1,
+                    "Discipline": "Agriculture",
+                    "College Type": "State",
+                    "University": "Tamil Nadu Agricultural University",
+                    "Address": "Lawley Road",
+                    "City": "Coimbatore",
+                    "State": "Tamil Nadu",
+                    "Code": null,
+                    "Source": "State Act",
+                    "Funding": "Government"
+                },
+                {
+                    "No.": 2,
+                    "Discipline": "Agriculture",
+                    "College Type": "State",
+                    "University": "Punjab Agricultural University",
+                    "Address": "Ferozepur Road",
+                    "City": "Ludhiana",
+                    "State": "Punjab",
+                    "Code": null,
+                    "Source": "State Act",
+                    "Funding": "Government"
+                }
+            ]
+        },
+        {
+            "sectionName": "Private / Veterinary & Animal Sciences",
+            "type": "Private",
+            "institutions": [
+                {
+                    "No.": 1,
+                    "Discipline": "Agriculture",
+                    "College Type": "Veterinary & Animal Sciences",
+                    "Institute/University": "TANUVAS",
+                    "Address": "Madhavaram",
+                    "City": "Chennai",
+                    "State": "Tamil Nadu",
+                    "Code": null,
+                    "Source": "State Act",
+                    "Funding": "Government"
+                },
+                {
+                    "No.": 2,
+                    "Discipline": "Agriculture",
+                    "College Type": "Veterinary & Animal Sciences",
+                    "Institute/University": "Guru Angad Dev Veterinary University",
+                    "Address": "Ferozepur Road",
+                    "City": "Ludhiana",
+                    "State": "Punjab",
+                    "Code": null,
+                    "Source": "State Act",
+                    "Funding": "Government"
+                }
+            ]
+        }
+    ]
+}

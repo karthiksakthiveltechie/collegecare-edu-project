@@ -1,0 +1,397 @@
+[
+  {
+    "discipline_id": "law",
+    "discipline_name": "Law",
+    "generated_at": "2026-02-28T19:28:51.167598",
+    "college_type_sections": [
+      {
+        "section_id": "law_government_college_list",
+        "section_label": "State",
+        "institutions": [
+          {
+            "id": "the-tamil-nadu-drambedkar-law-university",
+            "external_code": null,
+            "name": "The Tamil Nadu Dr.Ambedkar Law University",
+            "source": null,
+            "funding": "Government",
+            "city": "Chennai",
+            "state": "Tamilnadu",
+            "address": "Dr. D.G.S. Dinakaran Salai, State Bank of India Colony, Raja Annamalaipuram, Tamil Nadu 600028",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "section_id": "law_state_college_list",
+        "section_label": "State",
+        "institutions": [
+          {
+            "id": "tamil-nadu-national-law-university-tnnlu",
+            "external_code": null,
+            "name": "Tamil Nadu National Law University (TNNLU)",
+            "source": null,
+            "funding": "Government",
+            "city": "Tiruchirappalli",
+            "state": "Tamilnadu",
+            "address": "Navalurkuttappattu, Srirangam Taluk - 620 027, Tamil Nadu",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "section_id": "law_tnaffiliated_college_list",
+        "section_label": "TNAffiliated",
+        "institutions": [
+          {
+            "id": "chennai-dr-ambedkar-government-law-college-pudupakkam",
+            "external_code": null,
+            "name": "Chennai Dr. Ambedkar Government Law College Pudupakkam",
+            "source": null,
+            "funding": "Government",
+            "city": "Chennai",
+            "state": "Tamilnadu",
+            "address": "Opp. L&T Model House, near Law College, Opposite Pragnya Eden Park Sales Office, Pudupakkam, 603103",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "chennai-dr-ambedkar-government-law-college-pattaraiperumpudur",
+            "external_code": null,
+            "name": "Chennai Dr. Ambedkar Government Law College Pattaraiperumpudur",
+            "source": null,
+            "funding": "Government",
+            "city": "Thiruvallur",
+            "state": "Tamilnadu",
+            "address": "Pattaraiperumpudhur, Thiruvallur",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "madurai-government-law-college",
+            "external_code": null,
+            "name": "Madurai Government Law College",
+            "source": null,
+            "funding": "Government",
+            "city": "Madurai",
+            "state": "Tamilnadu",
+            "address": "Madurai – 625 020",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "tiruhirapalli-government-law-college",
+            "external_code": null,
+            "name": "Tiruhirapalli Government Law College",
+            "source": null,
+            "funding": "Government",
+            "city": "Tiruhirapalli",
+            "state": "Tamilnadu",
+            "address": "Tiruchirapalli – 620 023",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "coimbatore-government-law-college",
+            "external_code": null,
+            "name": "Coimbatore Government Law College",
+            "source": null,
+            "funding": "Government",
+            "city": "Coimbatore",
+            "state": "Tamilnadu",
+            "address": "Coimbatore – 641 046",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "tirunelveli-government-law-college",
+            "external_code": null,
+            "name": "Tirunelveli Government Law College",
+            "source": null,
+            "funding": "Government",
+            "city": "Tirunelveli",
+            "state": "Tamilnadu",
+            "address": "Tirunelveli – 627 011",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "chengalpattu-government-law-college",
+            "external_code": null,
+            "name": "Chengalpattu Government Law College",
+            "source": null,
+            "funding": "Government",
+            "city": "Chengalpattu",
+            "state": "Tamilnadu",
+            "address": "Chengalpattu – 603 001",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "vellore-government-law-college",
+            "external_code": null,
+            "name": "Vellore Government Law College",
+            "source": null,
+            "funding": "Government",
+            "city": "Vellore",
+            "state": "Tamilnadu",
+            "address": "Vellore – 623 006",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "villupuram-government-law-college",
+            "external_code": null,
+            "name": "Villupuram Government Law College",
+            "source": null,
+            "funding": "Government",
+            "city": "Villupuram",
+            "state": "Tamilnadu",
+            "address": "Villupuram – 605 602",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "dharmapuri-government-law-college",
+            "external_code": null,
+            "name": "Dharmapuri Government Law College",
+            "source": null,
+            "funding": "Government",
+            "city": "Dharmapuri",
+            "state": "Tamilnadu",
+            "address": "Dharmapuri – 636 701",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "ramanathapuram-government-law-college",
+            "external_code": null,
+            "name": "Ramanathapuram Government Law College",
+            "source": null,
+            "funding": "Government",
+            "city": "Ramanathapuram",
+            "state": "Tamilnadu",
+            "address": "Ramanathapuram – 623 501",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "salem-government-law-college",
+            "external_code": null,
+            "name": "Salem Government Law College",
+            "source": null,
+            "funding": "Government",
+            "city": "Salem",
+            "state": "Tamilnadu",
+            "address": "Salem – 636 010",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "namakkal-government-law-college",
+            "external_code": null,
+            "name": "Namakkal Government Law College",
+            "source": null,
+            "funding": "Government",
+            "city": "Namakkal",
+            "state": "Tamilnadu",
+            "address": "Namakkal – 637 001",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "theni-government-law-college",
+            "external_code": null,
+            "name": "Theni Government Law College",
+            "source": null,
+            "funding": "Government",
+            "city": "Theni",
+            "state": "Tamilnadu",
+            "address": "Theni – 625 534",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "karaikudi-government-law-college",
+            "external_code": null,
+            "name": "Karaikudi Government Law College",
+            "source": null,
+            "funding": "Government",
+            "city": "Karaikudi",
+            "state": "Tamilnadu",
+            "address": "Karaikudi - 630003",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "section_id": "law_tnaffiliatedprivate_college_list",
+        "section_label": "Private",
+        "institutions": [
+          {
+            "id": "saraswathy-law-college",
+            "external_code": null,
+            "name": "Saraswathy Law College",
+            "source": null,
+            "funding": "Private",
+            "city": "Tindivanam",
+            "state": "Tamilnadu",
+            "address": "Tindivanam – 604 307",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "mother-terasa-law-college",
+            "external_code": null,
+            "name": "Mother Terasa Law College",
+            "source": null,
+            "funding": "Private",
+            "city": "Pudukottai",
+            "state": "Tamilnadu",
+            "address": "Pudukottai – 622 102",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "gtn-law-college",
+            "external_code": null,
+            "name": "GTN Law College",
+            "source": null,
+            "funding": "Private",
+            "city": "Dindugul",
+            "state": "Tamilnadu",
+            "address": "Dindugul – 624 005",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "kmc-college-of-law",
+            "external_code": null,
+            "name": "KMC College of Law",
+            "source": null,
+            "funding": "Private",
+            "city": "Tiruppur",
+            "state": "Tamilnadu",
+            "address": "Tiruppur – 641 605",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "erode-college-of-law",
+            "external_code": null,
+            "name": "Erode College of Law",
+            "source": null,
+            "funding": "Private",
+            "city": "Erode",
+            "state": "Tamilnadu",
+            "address": "Erode – 638 052",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "s-thangapazham-law-college",
+            "external_code": null,
+            "name": "S Thangapazham Law College",
+            "source": null,
+            "funding": "Private",
+            "city": "Tenkasi",
+            "state": "Tamilnadu",
+            "address": "Vasudevanallur, Tenkasi  - 627 758",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "thulasi-college-of-law-for-women",
+            "external_code": null,
+            "name": "Thulasi College of Law for Women",
+            "source": null,
+            "funding": "Private",
+            "city": "Tutricorin",
+            "state": "Tamilnadu",
+            "address": "Tutricorin – 628 252",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "mugil-college-of-law",
+            "external_code": null,
+            "name": "Mugil College of Law",
+            "source": null,
+            "funding": "Private",
+            "city": "Kanyakumari",
+            "state": "Tamilnadu",
+            "address": "Kanyakumari – 629 163",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "skp-law-college",
+            "external_code": null,
+            "name": "SKP Law College",
+            "source": null,
+            "funding": "Private",
+            "city": "Thiruvannamalai",
+            "state": "Tamilnadu",
+            "address": "Thiruvannamalai – 606 611",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "sir-issac-newton-law-college",
+            "external_code": null,
+            "name": "Sir Issac Newton Law College",
+            "source": null,
+            "funding": "Private",
+            "city": "Nagapattinam",
+            "state": "Tamilnadu",
+            "address": "Nagapattinam – 611 102",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          },
+          {
+            "id": "anandam-law-college",
+            "external_code": null,
+            "name": "Anandam Law College",
+            "source": null,
+            "funding": "Private",
+            "city": "Tanjavur",
+            "state": "Tamilnadu",
+            "address": "Tanjavur- 613 402 39 39",
+            "zip": null,
+            "official_website": null,
+            "status": "active"
+          }
+        ]
+      }
+    ]
+  }
+]
