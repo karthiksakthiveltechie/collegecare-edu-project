@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { AuthProvider } from './context/AuthContext'
 import { NavProvider } from './context/NavContext'
@@ -31,6 +32,7 @@ function App({ onMount }) {
 
   return (
     <ThemeProvider>
+      <>
       <AuthProvider>
         <NavProvider>
           <Router>
@@ -76,6 +78,8 @@ function App({ onMount }) {
           </Router>
         </NavProvider>
       </AuthProvider>
+      <Analytics />
+      </>
     </ThemeProvider>
   )
 }
