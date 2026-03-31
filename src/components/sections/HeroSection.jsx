@@ -56,7 +56,7 @@ const HeroSection = () => {
               <span className="text-brand-college dark:text-cyberpunk-cyan">Uncover Your Path.</span>
             </h1>
             <p className="text-lg md:text-xl text-light-textMuted dark:text-gray-300 mb-8 max-w-xl mx-auto lg:mx-0">
-              Your trusted partner for higher education. 12+ years of excellence, 1000+ successful students.
+              Your trusted partner for higher education. 12+ years of excellence, 5000+ successful students.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">

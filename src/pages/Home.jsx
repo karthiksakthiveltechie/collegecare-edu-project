@@ -16,7 +16,7 @@ const Home = () => {
   const { theme } = useTheme()
   const isLight = theme === 'light'
   const stats = [
-    { icon: FiUsers, value: '1000+', label: 'Successful Students' },
+    { icon: FiUsers, value: '5000+', label: 'Successful Students' },
     { icon: FiAward, value: '12+', label: 'Years of Experience' },
     { icon: FiGlobe, value: '50+', label: 'Countries Covered' },
     { icon: FiTrendingUp, value: '95%', label: 'Success Rate' },
@@ -26,7 +26,7 @@ const Home = () => {
     <main>
       <SEO
         title="Find Best Colleges, Courses & Admissions in India"
-        description="College Care is India's trusted higher education consulting platform. 12+ years of excellence helping 1000+ students with college admissions, entrance exams, study abroad guidance, and free counselling."
+        description="College Care is India's trusted higher education consulting platform. 12+ years of excellence helping 5000+ students with college admissions, entrance exams, study abroad guidance, and free counselling."
         path="/"
         keywords="college consulting India, higher education guidance, best colleges India, college admission help, entrance exam preparation, study abroad, free counselling"
       />

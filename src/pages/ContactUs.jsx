@@ -52,6 +52,8 @@ const ContactUs = () => {
                   <FiPhone className="text-cyberpunk-cyan mt-1 flex-shrink-0" aria-hidden="true" />
                   <a href="tel:+917871002025" className="hover:text-cyberpunk-cyan transition-colors">
                     +91 787 100 2025
+                  </a>
+                  <a href="tel:+917871002025" className="hover:text-cyberpunk-cyan transition-colors">
                     +91 892 583 4213
                   </a>
                 </li>

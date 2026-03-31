@@ -16,7 +16,7 @@ export const ORGANIZATION_SCHEMA = {
   url: 'https://collegecare.in',
   logo: 'https://collegecare.in/college-care-logo.png',
   description:
-    "India's trusted higher education consulting platform with 12+ years of excellence helping 1000+ students with college admissions, entrance exams, study abroad guidance, and free counselling.",
+    "India's trusted higher education consulting platform with 12+ years of excellence helping 5000+ students with college admissions, entrance exams, study abroad guidance, and free counselling.",
   foundingDate: '2014',
   email: 'info@collegecare.in',
   telephone: '+917871002025',

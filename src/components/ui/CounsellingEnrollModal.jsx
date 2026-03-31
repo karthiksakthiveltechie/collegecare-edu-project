@@ -4,7 +4,7 @@ import { useCounsellingModal } from '../../context/CounsellingModalContext'
 import { getDisciplineNamesForCoursePreference } from '../../data/institutionsLoader'
 
 const STORAGE_KEY = 'counsellingModalDismissedUntil'
-const SHOW_DELAY_MS = 10000
+const SHOW_DELAY_MS = 20000
 const IDLE_MS = 50000
 
 const DEFAULT_FORMSPREE_URL = 'https://formspree.io/f/mwvnyyje'

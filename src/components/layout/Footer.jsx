@@ -45,7 +45,7 @@ const Footer = () => {
             </h3>
             <p className="text-light-footerText dark:text-gray-400 text-xs mb-2 opacity-90">Defining your way to Education</p>
             <p className="text-light-footerText dark:text-gray-400 text-sm mb-4 opacity-90">
-              Serving students for 12+ years, helping 1000+ students achieve their higher education dreams.
+              Serving students for 12+ years, helping 5000+ students achieve their higher education dreams.
             </p>
             <SocialLinks iconSize="text-xl" />
           </div>
@@ -98,6 +98,8 @@ const Footer = () => {
                 <FiPhone className="text-white dark:text-cyberpunk-cyan mt-1 flex-shrink-0" aria-hidden="true" />
                 <a href="tel:+917871002025" className="hover:text-white dark:hover:text-cyberpunk-cyan transition-colors">
                   +91 787 100 2025
+                </a>
+                <a href="tel:+917871002025" className="hover:text-white dark:hover:text-cyberpunk-cyan transition-colors">
                   +91 892 583 4213
                 </a>
               </li>
@@ -123,7 +125,7 @@ const Footer = () => {
             <span className="text-brand-care">Care</span>. All rights reserved.
           </p>
           <p className="text-light-footerText dark:text-gray-500 text-xs mt-2 opacity-75">
-            Serving students for 12+ years | 1000+ successful students
+            Serving students for 12+ years | 5000+ successful students
           </p>
         </div>
       </div>

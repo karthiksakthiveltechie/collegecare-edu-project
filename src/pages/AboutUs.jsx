@@ -14,7 +14,7 @@ const AboutUs = () => {
     {
       icon: FiAward,
       title: 'Proven Track Record',
-      description: '12+ years of excellence with 1000+ successful students placed in top colleges.',
+      description: '12+ years of excellence with 5000+ successful students placed in top colleges.',
     },
     {
       icon: FiTarget,
@@ -42,7 +42,7 @@ const AboutUs = () => {
     <main className="py-12 md:py-20 px-4">
       <SEO
         title="About Us - 12+ Years of Excellence in Education Consulting"
-        description="Learn about College Care's 12+ years of experience in higher education consulting. 1000+ successful students, 95% success rate, and expert counselors dedicated to your academic future."
+        description="Learn about College Care's 12+ years of experience in higher education consulting. 5000+ successful students, 95% success rate, and expert counselors dedicated to your academic future."
         path="/about-us"
         keywords="about College Care, education consultants India, higher education consulting, student success, Thiruvannamalai"
       />
@@ -52,7 +52,7 @@ const AboutUs = () => {
       ])} />
       <JsonLd data={buildWebPageSchema({
         name: 'About College Care',
-        description: "12+ years of experience in higher education consulting. 1000+ successful students, 95% success rate.",
+        description: "12+ years of experience in higher education consulting. 5000+ successful students, 95% success rate.",
         url: 'https://collegecare.in/about-us',
       })} />
       <div className="container mx-auto">
@@ -148,7 +148,7 @@ const AboutUs = () => {
               </div>
               <div>
                 <div className="text-4xl md:text-5xl font-heading font-bold text-cyberpunk-cyan mb-2">
-                  1000+
+                  5000+
                 </div>
                 <div className="text-gray-400">Successful Students</div>
               </div>
