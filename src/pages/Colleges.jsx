@@ -122,11 +122,11 @@ const Colleges = () => {
                 <FiExternalLink /> Official website
               </a>
             )}
-            <div className="mt-8 pt-6 border-t border-light-navHover dark:border-dark-border">
+            <div className="mt-8 pt-6 border-t border-light-navHover dark:border-dark-border flex justify-center">
               <NeonButton
                 type="button"
                 onClick={() => openModal()}
-                className="w-full sm:w-auto min-w-[8rem]"
+                className="min-w-[8rem]"
                 aria-label="Apply for free counselling for this college"
               >
                 Apply
