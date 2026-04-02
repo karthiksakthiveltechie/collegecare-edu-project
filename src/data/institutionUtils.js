@@ -9,7 +9,7 @@
  *   id: string;
  *   name: string;
  *   discipline: string[];
- *   college_type: 'IIT'|'NIT'|'Central University'|'Deemed University'|'State University'|'Other';
+ *   college_type: 'IIT'|'NIT'|'Central University'|'Deemed University'|'State University'|'TN Government'|'TN Private'|'TN State University'|'Other';
  *   group_label?: string|null;
  *   funding: string|null;
  *   city: string|null;
@@ -29,6 +29,9 @@ export const COLLEGE_TYPES = [
   "Central University",
   "Deemed University",
   "State University",
+  "TN Government",
+  "TN State University",
+  "TN Private",
   "Other",
 ];
 
@@ -39,6 +42,9 @@ const COLLEGE_TYPE_ORDER = [
   "Central University",
   "Deemed University",
   "State University",
+  "TN Government",
+  "TN State University",
+  "TN Private",
   "Other",
 ];
 
@@ -63,6 +69,10 @@ const SECTION_ID_TO_COLLEGE_TYPE = {
   engineering_stateuniversity_list: "State University",
   engineering_nit_list: "NIT",
   engineering_centraluniversity_list: "Central University",
+  /** Tamil Nadu engineering lists (Eng-institutions.json) */
+  tn_govt: "TN Government",
+  tn_private: "TN Private",
+  tn_university: "TN State University",
   "medical-state": "State University",
   "medical-private": "Other",
   arts_science_state_list: "State University",
@@ -208,21 +218,38 @@ export function groupByDisciplineAndCollegeType(institutions, discipline) {
 }
 
 /**
+ * When a college_type bucket has multiple section labels (e.g. TN Govt vs TN University under State University),
+ * split into subgroups for clearer UI. Single label or no labels → flat list (subgroups null).
+ */
+function engineeringSubgroupsForBucket(institutions) {
+  const labels = [...new Set((institutions || []).map((i) => i.group_label).filter(Boolean))];
+  if (labels.length <= 1) return null;
+  labels.sort((a, b) => String(a).localeCompare(String(b)));
+  return labels.map((groupLabel) => ({
+    groupLabel,
+    institutions: institutions.filter((i) => i.group_label === groupLabel),
+  }));
+}
+
+/**
  * Group Engineering institutions by college_type for the Engineering page.
  * Hierarchy: Engineering -> IIT -> [list], NIT -> [list], Central University -> [list], ...
  * Derived from DATA only; no hardcoded college names.
+ * Optional subgroups when multiple section labels share one college_type (e.g. State University).
  *
  * @param {Array<Institution>} data - full institutions array
- * @returns {{ groups: Array<{ collegeType: string, institutions: Institution[] }>, total: number }}
+ * @returns {{ groups: Array<{ collegeType: string, institutions: Institution[], subgroups: Array<{ groupLabel: string, institutions: Institution[] }>|null }>, total: number }}
  */
 export function groupEngineering(data) {
   const engineering = (data || []).filter(
     (inst) => inst.discipline && inst.discipline.includes("Engineering")
   );
-  const groups = COLLEGE_TYPE_ORDER.map((collegeType) => ({
-    collegeType,
-    institutions: engineering.filter((inst) => inst.college_type === collegeType),
-  })).filter((g) => g.institutions.length > 0);
+  const groups = COLLEGE_TYPE_ORDER.map((collegeType) => {
+    const list = engineering.filter((inst) => inst.college_type === collegeType);
+    if (list.length === 0) return null;
+    const subgroups = engineeringSubgroupsForBucket(list);
+    return { collegeType, institutions: list, subgroups };
+  }).filter(Boolean);
   return { groups, total: engineering.length };
 }
 
@@ -349,8 +376,8 @@ export function validateInstitutionsSchema(data) {
     if (item.id != null && typeof item.id !== "string") {
       errors.push(`[${index}] id must be a string`);
     }
-    if (item.id != null && !/^[a-z0-9-]+$/.test(item.id)) {
-      errors.push(`[${index}] id must be url-safe (lowercase, hyphens): ${item.id}`);
+    if (item.id != null && !/^[a-z0-9_-]+$/.test(item.id)) {
+      errors.push(`[${index}] id must be url-safe (lowercase, hyphens, underscores): ${item.id}`);
     }
   });
 

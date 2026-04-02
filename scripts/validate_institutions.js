@@ -15,7 +15,14 @@ const path = join(__dirname, "..", "src", "data", "Eng-institutions.json");
 const REQUIRED_KEYS = ["id", "name", "discipline", "college_type", "source", "status"];
 const OPTIONAL_KEYS = ["funding", "city", "state", "address", "zip", "official_website", "group_label"];
 const SCHEMA_KEYS = [...REQUIRED_KEYS, ...OPTIONAL_KEYS];
-const ALLOWED_SOURCES = new Set(["MoE", "UGC", "IIT Council", "Other"]);
+const ALLOWED_SOURCES = new Set([
+  "MoE",
+  "UGC",
+  "IIT Council",
+  "Other",
+  "State Govt",
+  "Private Trust",
+]);
 const ALLOWED_FUNDING = new Set(["Central", "State", "Private", null]);
 
 const raw = readFileSync(path, "utf-8");

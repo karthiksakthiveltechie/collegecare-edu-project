@@ -39,36 +39,73 @@ const Engineering = () => {
 
         {/* Hierarchy: Engineering -> IIT | NIT | Central University | ... - scrollable when list exceeds viewport */}
         <div className="college-list-scroll max-h-[75vh] overflow-y-auto overflow-x-hidden pr-1 space-y-10" style={{ scrollbarGutter: 'stable' }}>
-          {groups.map(({ collegeType, institutions: list }) => (
+          {groups.map(({ collegeType, institutions: list, subgroups }) => (
             <section key={collegeType} className="space-y-4">
               <h2 className="text-xl font-heading font-semibold text-cyberpunk-cyan border-b border-dark-border pb-2">
                 {collegeType}
                 <span className="text-gray-500 font-normal text-base ml-2">({list.length})</span>
               </h2>
-              <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 list-none p-0 m-0">
-                {list.map((inst) => (
-                  <li key={inst.id}>
-                    <Link to={`/colleges/engineering/${inst.id}`}>
-                      <GlassCard hover className="p-4 flex items-center gap-4 h-full">
-                        <div className="w-12 h-12 glass-card-hover rounded-lg flex items-center justify-center flex-shrink-0">
-                          <FiBook className="text-2xl text-cyberpunk-cyan" aria-hidden="true" />
-                        </div>
-                        <div className="min-w-0 flex-1">
-                          <div className="font-medium text-white truncate">{inst.name}</div>
-                          {(inst.city || inst.state) && (
-                            <div className="flex items-center gap-1 text-gray-400 text-sm mt-0.5">
-                              <FiMapPin className="flex-shrink-0" aria-hidden="true" />
-                              <span className="truncate">
-                                {[inst.city, inst.state].filter(Boolean).join(", ")}
-                              </span>
-                            </div>
-                          )}
-                        </div>
-                      </GlassCard>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+              {!subgroups ? (
+                <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 list-none p-0 m-0">
+                  {list.map((inst) => (
+                    <li key={inst.id}>
+                      <Link to={`/colleges/engineering/${inst.id}`}>
+                        <GlassCard hover className="p-4 flex items-center gap-4 h-full">
+                          <div className="w-12 h-12 glass-card-hover rounded-lg flex items-center justify-center flex-shrink-0">
+                            <FiBook className="text-2xl text-cyberpunk-cyan" aria-hidden="true" />
+                          </div>
+                          <div className="min-w-0 flex-1">
+                            <div className="font-medium text-white truncate">{inst.name}</div>
+                            {(inst.city || inst.state) && (
+                              <div className="flex items-center gap-1 text-gray-400 text-sm mt-0.5">
+                                <FiMapPin className="flex-shrink-0" aria-hidden="true" />
+                                <span className="truncate">
+                                  {[inst.city, inst.state].filter(Boolean).join(", ")}
+                                </span>
+                              </div>
+                            )}
+                          </div>
+                        </GlassCard>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <div className="space-y-8">
+                  {subgroups.map(({ groupLabel, institutions: subList }) => (
+                    <div key={groupLabel} className="space-y-3">
+                      <h3 className="text-lg font-heading font-medium text-gray-300 border-b border-dark-border/60 pb-1">
+                        {groupLabel}
+                        <span className="text-gray-500 font-normal text-sm ml-2">({subList.length})</span>
+                      </h3>
+                      <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 list-none p-0 m-0">
+                        {subList.map((inst) => (
+                          <li key={inst.id}>
+                            <Link to={`/colleges/engineering/${inst.id}`}>
+                              <GlassCard hover className="p-4 flex items-center gap-4 h-full">
+                                <div className="w-12 h-12 glass-card-hover rounded-lg flex items-center justify-center flex-shrink-0">
+                                  <FiBook className="text-2xl text-cyberpunk-cyan" aria-hidden="true" />
+                                </div>
+                                <div className="min-w-0 flex-1">
+                                  <div className="font-medium text-white truncate">{inst.name}</div>
+                                  {(inst.city || inst.state) && (
+                                    <div className="flex items-center gap-1 text-gray-400 text-sm mt-0.5">
+                                      <FiMapPin className="flex-shrink-0" aria-hidden="true" />
+                                      <span className="truncate">
+                                        {[inst.city, inst.state].filter(Boolean).join(", ")}
+                                      </span>
+                                    </div>
+                                  )}
+                                </div>
+                              </GlassCard>
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+              )}
             </section>
           ))}
         </div>
