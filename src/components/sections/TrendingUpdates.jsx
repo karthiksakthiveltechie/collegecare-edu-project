@@ -35,20 +35,20 @@ const TrendingUpdates = () => {
   ]
 
   return (
-    <section className="py-12 md:py-20 px-4">
+    <section className="py-12 md:py-20 px-4 bg-light-bg dark:bg-transparent">
       <div className="container mx-auto">
         <div className="flex items-center gap-3 mb-8">
-          <FiTrendingUp className="text-3xl text-cyberpunk-cyan" aria-hidden="true" />
+          <FiTrendingUp className="text-3xl text-light-primary dark:text-cyberpunk-cyan" aria-hidden="true" />
           <h2 className="section-title text-3xl md:text-4xl">Trending Updates</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {updates.map((update) => (
             <GlassCard hover key={update.id} className="p-6 flex flex-col h-full">
               <div className="flex items-center gap-2 mb-3">
-                <span className="text-xs px-2 py-1 glass-card rounded text-cyberpunk-green">
+                <span className="text-xs px-2 py-1 rounded border border-light-border bg-light-bg text-light-secondary dark:bg-dark-card dark:border-dark-border dark:text-cyberpunk-green font-medium">
                   {update.category}
                 </span>
-                <div className="flex items-center gap-1 text-gray-400 text-xs">
+                <div className="flex items-center gap-1 text-light-textCourse dark:text-gray-400 text-xs">
                   <FiCalendar className="text-xs" aria-hidden="true" />
                   <time dateTime={update.date}>
                     {new Date(update.date).toLocaleDateString('en-US', { 
@@ -59,11 +59,14 @@ const TrendingUpdates = () => {
                   </time>
                 </div>
               </div>
-              <h3 className="text-lg font-heading font-semibold text-white mb-3 flex-1">
+              <h3 className="text-lg font-heading font-semibold text-light-text dark:text-white mb-3 flex-1">
                 {update.title}
               </h3>
-              <p className="text-gray-400 text-sm mb-4">{update.description}</p>
-              <button className="flex items-center gap-2 text-cyberpunk-cyan hover:text-cyberpunk-pink transition-colors text-sm font-medium self-start">
+              <p className="text-light-textCourse dark:text-gray-400 text-sm mb-4">{update.description}</p>
+              <button
+                type="button"
+                className="flex items-center gap-2 text-light-primary hover:text-light-primaryDark dark:text-cyberpunk-cyan dark:hover:text-cyberpunk-pink transition-colors text-sm font-medium self-start"
+              >
                 Read More
                 <FiArrowRight className="text-sm" aria-hidden="true" />
               </button>

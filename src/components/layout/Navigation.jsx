@@ -76,15 +76,15 @@ const NavItem = ({ to, active, children }) => {
       to={to}
       className={`relative flex items-center gap-1 shrink-0 py-1.5 px-2 -mx-2 rounded transition-colors whitespace-nowrap
         ${active
-          ? 'bg-light-navActiveBg text-light-navActiveText dark:bg-transparent dark:text-cyberpunk-cyan'
-          : 'text-inherit hover:bg-light-navHover dark:text-gray-300 dark:hover:bg-dark-card dark:hover:text-cyberpunk-cyan'}
+          ? 'bg-light-navItemActiveBg text-light-navItemActiveText dark:bg-transparent dark:text-cyberpunk-cyan'
+          : 'text-inherit hover:bg-light-listHover dark:text-gray-300 dark:hover:bg-dark-card dark:hover:text-cyberpunk-cyan'}
       `}
     >
       <span className="text-sm shrink-0">{children[0]}</span>
       <span className="text-sm">{children[1]}</span>
 
       {active && (
-        <span className="absolute left-0 bottom-0 h-[2px] w-full bg-light-highlight dark:bg-cyberpunk-cyan rounded-full" />
+        <span className="absolute left-0 bottom-0 h-[2px] w-full bg-light-primary dark:bg-cyberpunk-cyan rounded-full" />
       )}
     </Link>
   )

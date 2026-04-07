@@ -131,14 +131,14 @@ const SearchResults = () => {
             {filteredResults.map((inst) => (
               <GlassCard hover key={inst.id} className="p-6 flex flex-col h-full">
                 <div className="flex items-start gap-4 mb-4">
-                  <div className="w-16 h-16 glass-card-hover flex items-center justify-center rounded-lg flex-shrink-0">
-                    <FiBook className="text-3xl text-cyberpunk-cyan" aria-hidden="true" />
+                  <div className="w-16 h-16 glass-card-hover flex items-center justify-center rounded-lg flex-shrink-0 border border-light-border dark:border-dark-border">
+                    <FiBook className="text-3xl text-light-primary dark:text-cyberpunk-cyan" aria-hidden="true" />
                   </div>
                   <div className="flex-1 min-w-0">
-                    <h3 className="text-xl font-heading font-semibold text-white mb-2 truncate">
+                    <h3 className="text-xl font-heading font-semibold text-light-text dark:text-white mb-2 truncate">
                       {inst.name}
                     </h3>
-                    <div className="flex items-center gap-2 text-light-textMuted dark:text-gray-400 text-sm mb-2">
+                    <div className="flex items-center gap-2 text-light-textCourse dark:text-gray-400 text-sm mb-2">
                       <FiMapPin className="flex-shrink-0" aria-hidden="true" />
                       <span className="truncate">
                         {[inst.city, inst.state].filter(Boolean).join(', ') || '—'}
@@ -149,11 +149,11 @@ const SearchResults = () => {
                     </div>
                   </div>
                 </div>
-                <div className="flex items-center justify-between pt-4 border-t border-dark-border mt-auto">
-                  <span className="text-light-textMuted dark:text-gray-500 text-sm">{(inst.discipline || []).join(', ')}</span>
+                <div className="flex items-center justify-between pt-4 border-t border-light-border dark:border-dark-border mt-auto">
+                  <span className="text-light-textCourse dark:text-gray-500 text-sm">{(inst.discipline || []).join(', ')}</span>
                   <Link
                     to={`/colleges/${inst.categorySlug || 'engineering'}/${inst.id}`}
-                    className="text-cyberpunk-cyan hover:text-cyberpunk-pink transition-colors text-sm font-medium"
+                    className="text-light-primary hover:text-light-primaryDark dark:text-cyberpunk-cyan dark:hover:text-cyberpunk-pink transition-colors text-sm font-medium"
                   >
                     View Details →
                   </Link>

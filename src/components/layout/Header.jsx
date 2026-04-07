@@ -47,7 +47,7 @@ const Header = () => {
   ]
 
   return (
-    <header className="sticky top-0 z-50 backdrop-blur-xl border-b bg-light-navBg text-light-navText border-light-navHover dark:bg-dark-card dark:text-white dark:border-dark-border dark:border-dark-border">
+    <header className="sticky top-0 z-50 backdrop-blur-xl border-b bg-light-navBg text-light-navText border-light-navBorder shadow-sm dark:bg-dark-card dark:text-white dark:border-dark-border">
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="flex items-center justify-between h-14 md:h-16 min-w-0">
           {/* Logo – brand name colors kept in both themes */}
@@ -67,7 +67,7 @@ const Header = () => {
                 <span className="text-brand-college">COLLEGE</span>{' '}
                 <span className="text-brand-care">CARE</span>
               </span>
-              <span className="text-[10px] md:text-xs text-white/80 dark:text-gray-400 font-body font-normal mt-0.5">
+              <span className="text-[10px] md:text-xs text-light-textMuted dark:text-gray-400 font-body font-normal mt-0.5">
                 Defining your way to Education
               </span>
             </div>
@@ -83,9 +83,9 @@ const Header = () => {
             <ThemeToggle />
             {user ? (
               <div className="flex items-center gap-4">
-                <span className="text-white dark:text-gray-300">Welcome, {user.name}</span>
+                <span className="text-light-text dark:text-gray-300">Welcome, {user.name}</span>
                 {isLight ? (
-                  <button type="button" onClick={logout} className="btn-outline-aurora border-white text-white hover:bg-white/10 text-sm px-3 py-1.5">
+                  <button type="button" onClick={logout} className="btn-outline-aurora text-sm px-3 py-1.5">
                     Logout
                   </button>
                 ) : (
@@ -96,10 +96,10 @@ const Header = () => {
               <>
                 {isLight ? (
                   <>
-                    <Link to="/login" className="whitespace-nowrap border-2 border-white text-white hover:bg-white/10 rounded-lg text-sm font-medium px-3 py-1.5 transition-colors">
+                    <Link to="/login" className="whitespace-nowrap border-2 border-light-primary text-light-primary hover:bg-light-listHover rounded-lg text-sm font-medium px-3 py-1.5 transition-colors">
                       Login
                     </Link>
-                    <Link to="/signup" className="whitespace-nowrap bg-light-navActiveBg text-light-navActiveText hover:bg-amber-400 rounded-lg text-sm font-semibold px-3 py-1.5 transition-colors">
+                    <Link to="/signup" className="whitespace-nowrap bg-light-highlight text-light-highlightText hover:bg-amber-400 rounded-lg text-sm font-semibold px-3 py-1.5 transition-colors">
                       Sign Up
                     </Link>
                   </>
@@ -120,7 +120,7 @@ const Header = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="lg:hidden p-2 text-white dark:text-gray-300 hover:bg-light-navHover dark:hover:bg-dark-card hover:text-white dark:hover:text-cyberpunk-cyan transition-colors rounded"
+            className="lg:hidden p-2 text-light-text dark:text-gray-300 hover:bg-light-listHover dark:hover:bg-dark-card hover:text-light-primary dark:hover:text-cyberpunk-cyan transition-colors rounded"
             aria-label="Toggle mobile menu"
             aria-expanded={mobileMenuOpen}
           >
@@ -134,13 +134,13 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="lg:hidden py-4 border-t border-white/20 dark:border-dark-border">
+          <div className="lg:hidden py-4 border-t border-light-border dark:border-dark-border">
             <nav className="flex flex-col gap-2" role="navigation" aria-label="Mobile navigation">
               {mobileNavItems.map((item) => (
                 <div key={item.path}>
                     <Link
                     to={item.path}
-                    className="block px-4 py-2 rounded-lg text-white dark:text-gray-300 hover:bg-light-navHover dark:hover:bg-dark-card hover:text-white dark:hover:text-cyberpunk-cyan transition-all duration-300 whitespace-nowrap"
+                    className="block px-4 py-2 rounded-lg text-light-text dark:text-gray-300 hover:bg-light-listHover dark:hover:bg-dark-card hover:text-light-primary dark:hover:text-cyberpunk-cyan transition-all duration-300 whitespace-nowrap"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     {item.label}
@@ -151,7 +151,7 @@ const Header = () => {
                         <Link
                           key={subItem.path}
                           to={subItem.path}
-                          className="block px-4 py-2 rounded-lg text-sm text-white/90 dark:text-gray-400 hover:bg-light-navHover dark:hover:bg-dark-card hover:text-white dark:hover:text-cyberpunk-cyan transition-all duration-300"
+                          className="block px-4 py-2 rounded-lg text-sm text-light-text dark:text-gray-400 hover:bg-light-listHover dark:hover:bg-dark-card hover:text-light-primary dark:hover:text-cyberpunk-cyan transition-all duration-300"
                           onClick={() => setMobileMenuOpen(false)}
                         >
                           {subItem.label}
@@ -161,16 +161,16 @@ const Header = () => {
                   )}
                 </div>
               ))}
-              <div className="pt-4 border-t border-white/20 dark:border-dark-border mt-2 flex flex-col gap-2">
+              <div className="pt-4 border-t border-light-border dark:border-dark-border mt-2 flex flex-col gap-2">
                 <div className="flex items-center justify-between px-4 pb-2">
-                  <span className="text-sm text-white/80 dark:text-gray-400">Theme</span>
+                  <span className="text-sm text-light-textMuted dark:text-gray-400">Theme</span>
                   <ThemeToggle />
                 </div>
                 {user ? (
                   <>
-                    <span className="px-4 py-2 text-white dark:text-gray-300">Welcome, {user.name}</span>
+                    <span className="px-4 py-2 text-light-text dark:text-gray-300">Welcome, {user.name}</span>
                     {isLight ? (
-                      <button type="button" onClick={logout} className="mx-4 btn-outline-aurora border-white text-white hover:bg-white/10">
+                      <button type="button" onClick={logout} className="mx-4 btn-outline-aurora">
                         Logout
                       </button>
                     ) : (
@@ -181,10 +181,10 @@ const Header = () => {
                   <>
                     {isLight ? (
                       <>
-                        <Link to="/login" onClick={() => setMobileMenuOpen(false)} className="mx-4 border-2 border-white text-white hover:bg-white/10 rounded-lg font-medium py-2 text-center transition-colors">
+                        <Link to="/login" onClick={() => setMobileMenuOpen(false)} className="mx-4 border-2 border-light-primary text-light-primary hover:bg-light-listHover rounded-lg font-medium py-2 text-center transition-colors">
                           Login
                         </Link>
-                        <Link to="/signup" onClick={() => setMobileMenuOpen(false)} className="mx-4 bg-light-navActiveBg text-light-navActiveText hover:bg-amber-400 rounded-lg font-semibold py-2 text-center transition-colors">
+                        <Link to="/signup" onClick={() => setMobileMenuOpen(false)} className="mx-4 bg-light-highlight text-light-highlightText hover:bg-amber-400 rounded-lg font-semibold py-2 text-center transition-colors">
                           Sign Up
                         </Link>
                       </>

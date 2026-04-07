@@ -1,21 +1,21 @@
 /* CategoryMegaMenu - Theme-aware: light (brand) and dark (cyberpunk) */
 
-/* Academic Aurora – Sub Menu: #EFF6FF bg, #BFDBFE border, hover #DBEAFE, active #2563EB + white text */
+/* Academic Aurora – Sub Menu: hover #EFF6FF, active #DBEAFE */
 html:not(.dark) .category-mega-menu {
-  background: #EFF6FF;
-  border-bottom: 1px solid #BFDBFE;
+  background: #FFFFFF;
+  border-bottom: 1px solid #E2E8F0;
 }
 html:not(.dark) .category-submenu-trigger {
   color: #1E293B;
 }
 html:not(.dark) .category-submenu-trigger:hover,
 html:not(.dark) .category-submenu-trigger:focus {
-  background: #DBEAFE;
+  background: #EFF6FF;
   color: #1E293B;
 }
 html:not(.dark) .category-submenu-trigger--active {
-  background: #2563EB;
-  color: #FFFFFF;
+  background: #DBEAFE;
+  color: #1E293B;
 }
 @media (max-width: 1023px) {
   html:not(.dark) .category-submenu-item {
@@ -27,7 +27,7 @@ html:not(.dark) .category-dropdown-panel--desktop {
   border-bottom: 1px solid #CBD5E1;
 }
 html:not(.dark) .category-dropdown-panel--mobile {
-  background: #EFF6FF;
+  background: #FFFFFF;
 }
 html:not(.dark) .category-dropdown-panel--mobile-open {
   border-color: #BFDBFE;
@@ -37,7 +37,12 @@ html:not(.dark) .category-dropdown-link {
 }
 html:not(.dark) .category-dropdown-link:hover {
   color: #2563EB;
-  background: #F1F5F9;
+  background: #EFF6FF;
+}
+html:not(.dark) .category-dropdown-link--active,
+html:not(.dark) .category-dropdown-link[aria-current="page"] {
+  background: #DBEAFE;
+  color: #1E293B;
 }
 html:not(.dark) .category-college-type-trigger {
   color: #1E293B;
@@ -45,7 +50,7 @@ html:not(.dark) .category-college-type-trigger {
 html:not(.dark) .category-college-type-trigger:hover,
 html:not(.dark) .category-college-type-trigger:focus {
   color: #2563EB;
-  background: #DBEAFE;
+  background: #EFF6FF;
 }
 html:not(.dark) .category-college-type-trigger--active {
   color: #2563EB;

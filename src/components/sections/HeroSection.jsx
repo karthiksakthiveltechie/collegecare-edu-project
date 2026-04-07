@@ -46,7 +46,7 @@ const HeroSection = () => {
 
 
   return (
-    <section className="relative min-h-[85vh] md:min-h-[90vh] flex items-center pt-6 pb-16 md:py-20 overflow-hidden">
+    <section className="relative min-h-[85vh] md:min-h-[90vh] flex items-center pt-6 pb-16 md:py-20 overflow-hidden bg-white dark:bg-transparent">
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
           {/* Left column: value proposition, CTAs, social proof */}
@@ -55,7 +55,7 @@ const HeroSection = () => {
               Navigate Your Future.{' '}
               <span className="text-brand-college dark:text-cyberpunk-cyan">Uncover Your Path.</span>
             </h1>
-            <p className="text-lg md:text-xl text-light-textMuted dark:text-gray-300 mb-8 max-w-xl mx-auto lg:mx-0">
+            <p className="text-lg md:text-xl text-light-textCourse dark:text-gray-300 mb-8 max-w-xl mx-auto lg:mx-0">
               Your trusted partner for higher education. 12+ years of excellence, 5000+ successful students.
             </p>
 
@@ -63,7 +63,7 @@ const HeroSection = () => {
               <Link
                 to="/contact-us"
                 className={isLight
-                  ? 'inline-flex items-center justify-center bg-light-highlight text-light-navActiveText hover:bg-amber-400 px-6 py-3.5 rounded-lg font-semibold transition-all duration-250'
+                  ? 'inline-flex items-center justify-center btn-cta-aurora px-6 py-3.5'
                   : ''}
               >
                 {isLight ? (
@@ -75,7 +75,7 @@ const HeroSection = () => {
               <Link
                 to="/services"
                 className={isLight
-                  ? 'inline-flex items-center justify-center border-2 border-light-primary text-light-primary hover:bg-light-submenuBg px-6 py-3.5 rounded-lg font-semibold transition-all duration-250'
+                  ? 'inline-flex items-center justify-center btn-secondary-aurora px-6 py-3.5'
                   : ''}
               >
                 {isLight ? (
@@ -98,7 +98,7 @@ const HeroSection = () => {
             </div>
 
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4">
-              <span className="text-sm text-light-textMuted dark:text-gray-400">Trusted by students — guided by experts</span>
+              <span className="text-sm text-light-textCourse dark:text-gray-400">Trusted by students — guided by experts</span>
             </div>
           </div>
 

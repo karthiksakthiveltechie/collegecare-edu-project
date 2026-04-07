@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef, useCallback } from 'react'
 import { Link } from 'react-router-dom'
 import { FiSearch } from 'react-icons/fi'
 import NeonButton from './NeonButton'
+import { useTheme } from '../../context/ThemeContext'
 
 const DEBOUNCE_MS = 250
 const MIN_LENGTH_FOR_DROPDOWN = 2
@@ -16,6 +17,8 @@ const SearchBox = ({
   showEmptyState = false,
   emptyStateMessage = "No colleges or courses match",
 }) => {
+  const { theme } = useTheme()
+  const isLight = theme === 'light'
   const [searchTerm, setSearchTerm] = useState('')
   const [highlightedIndex, setHighlightedIndex] = useState(-1)
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
@@ -113,8 +116,10 @@ const SearchBox = ({
   return (
     <div ref={containerRef} className={`relative ${className}`}>
       <form onSubmit={handleSubmit} className="relative">
-        <div className="glass-card-hover flex items-center gap-4 p-4 md:p-6">
-          <FiSearch className="text-cyberpunk-cyan text-2xl md:text-3xl flex-shrink-0" aria-hidden="true" />
+        <div
+          className={`glass-card-hover flex items-center gap-4 p-4 md:p-6 rounded-lg border border-light-dropdownBorder shadow-soft-ui transition-shadow focus-within:ring-2 focus-within:ring-light-primary focus-within:border-light-primary dark:border-dark-border dark:focus-within:ring-cyberpunk-cyan dark:focus-within:border-cyberpunk-cyan`}
+        >
+          <FiSearch className="text-light-primary dark:text-cyberpunk-cyan text-2xl md:text-3xl flex-shrink-0" aria-hidden="true" />
           <input
             type="text"
             value={searchTerm}
@@ -122,20 +127,32 @@ const SearchBox = ({
             onKeyDown={handleKeyDown}
             onFocus={() => searchTerm.length >= MIN_LENGTH_FOR_DROPDOWN && setIsDropdownOpen(true)}
             placeholder={placeholder}
-            className="cyberpunk-input flex-1 bg-transparent border-0 focus:ring-0 text-lg md:text-xl"
+            className="cyberpunk-input flex-1 bg-transparent border-0 shadow-none focus:ring-0 focus:shadow-none text-lg md:text-xl dark:focus:shadow-none"
             aria-label="Search for colleges or courses"
             aria-expanded={showDropdown}
             aria-autocomplete="list"
             aria-controls="search-results-list"
             id="search-input"
           />
-          <NeonButton type="submit" className="hidden md:block">
+          {isLight ? (
+            <button type="submit" className="hidden md:inline-flex btn-primary-aurora items-center justify-center">
+              Search
+            </button>
+          ) : (
+            <NeonButton type="submit" className="hidden md:block">
+              Search
+            </NeonButton>
+          )}
+        </div>
+        {isLight ? (
+          <button type="submit" className="w-full mt-4 md:hidden btn-primary-aurora">
+            Search
+          </button>
+        ) : (
+          <NeonButton type="submit" className="w-full mt-4 md:hidden">
             Search
           </NeonButton>
-        </div>
-        <NeonButton type="submit" className="w-full mt-4 md:hidden">
-          Search
-        </NeonButton>
+        )}
       </form>
 
       {showDropdown && (
@@ -143,7 +160,7 @@ const SearchBox = ({
           id="search-results-list"
           role="listbox"
           aria-labelledby="search-input"
-          className="absolute left-0 right-0 top-full mt-1 z-50 rounded-xl overflow-hidden bg-light-dropdownBg dark:bg-dark-card border border-light-dropdownBorder dark:border-dark-border shadow-xl max-h-[min(70vh,400px)] overflow-y-auto"
+          className="absolute left-0 right-0 top-full mt-1 z-50 rounded-xl overflow-hidden bg-light-card dark:bg-dark-card border border-light-border dark:border-dark-border shadow-soft-ui max-h-[min(70vh,400px)] overflow-y-auto"
         >
           {showResultsList && (
             <ul ref={listRef} className="py-2 list-none m-0 p-0">
@@ -159,12 +176,12 @@ const SearchBox = ({
                       onMouseEnter={() => setHighlightedIndex(index)}
                       className={`block px-4 py-3 text-left transition-colors ${
                         isHighlighted
-                          ? 'bg-cyberpunk-cyan/20 text-cyberpunk-cyan'
-                          : 'hover:bg-light-dropdownHover dark:hover:bg-dark-card text-light-text dark:text-gray-200'
+                          ? 'bg-light-dropdownSelected text-light-text dark:bg-cyberpunk-cyan/20 dark:text-cyberpunk-cyan'
+                          : 'hover:bg-light-dropdownHover dark:hover:bg-white/5 text-light-text dark:text-gray-200'
                       }`}
                     >
                       <div className="font-medium truncate">{inst.name}</div>
-                      <div className="flex flex-wrap gap-2 mt-0.5 text-sm text-light-textMuted dark:text-gray-400">
+                      <div className="flex flex-wrap gap-2 mt-0.5 text-sm text-light-textCourse dark:text-gray-400">
                         {inst.discipline && inst.discipline[0] && (
                           <span>{inst.discipline[0]}</span>
                         )}

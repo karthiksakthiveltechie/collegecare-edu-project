@@ -139,12 +139,18 @@
     @apply bg-light-primary text-white hover:bg-light-primaryDark active:bg-light-primaryDeeper px-6 py-3 font-semibold rounded-lg;
     transition: background-color 250ms ease, transform 250ms ease;
   }
+  /* Secondary (light): outline blue */
   .btn-secondary-aurora {
-    @apply bg-light-accent text-white hover:bg-light-accentHover px-6 py-3 font-semibold rounded-lg;
+    @apply border-2 border-light-primary text-light-primary bg-transparent hover:bg-light-listHover active:bg-light-selectedBg rounded-lg px-6 py-3 font-semibold;
+    transition: background-color 250ms ease, border-color 250ms ease, color 250ms ease;
+  }
+  /* CTA: amber */
+  .btn-cta-aurora {
+    @apply bg-light-highlight text-light-highlightText hover:bg-amber-400 active:bg-amber-500 px-6 py-3 font-semibold rounded-lg;
     transition: background-color 250ms ease, transform 250ms ease;
   }
   .btn-outline-aurora {
-    @apply border-2 border-light-primary text-light-primary hover:bg-light-submenuBg rounded-lg px-6 py-3 font-semibold;
+    @apply border-2 border-light-primary text-light-primary hover:bg-light-listHover rounded-lg px-6 py-3 font-semibold;
     transition: background-color 250ms ease, border-color 250ms ease, color 250ms ease;
   }
 
@@ -179,12 +185,12 @@
 
   .cyberpunk-input {
     @apply px-4 py-3 rounded-lg border transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-light-primary focus:border-light-primary;
-    @apply bg-light-card dark:bg-dark-card border-light-border dark:border-dark-border;
+    @apply bg-light-card dark:bg-dark-card border-light-dropdownBorder dark:border-dark-border;
     @apply text-light-text dark:text-white placeholder-light-textMuted dark:placeholder-gray-400;
   }
 
   .cyberpunk-input:focus {
-    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
   }
 
   .dark .cyberpunk-input {
@@ -228,6 +234,14 @@
   /* Academic Aurora: dropdown options */
   select.search-filter-select option {
     background: #FFFFFF;
+    color: #1E293B;
+  }
+  select.search-filter-select option:hover {
+    background: #EFF6FF;
+    color: #1E293B;
+  }
+  select.search-filter-select option:checked {
+    background: #DBEAFE;
     color: #1E293B;
   }
   .dark select.search-filter-select option {

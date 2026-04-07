@@ -68,7 +68,7 @@ const Testimonials = () => {
   }
 
   return (
-    <section className="py-12 md:py-20 px-4">
+    <section className="py-12 md:py-20 px-4 bg-light-bg dark:bg-transparent">
       <div className="container mx-auto">
         <h2 className="section-title text-center mb-12">What Our Students Say</h2>
         <div className="relative">
@@ -80,7 +80,7 @@ const Testimonials = () => {
           <div className="flex justify-center items-center gap-4">
             <button
               onClick={prevTestimonial}
-              className="p-3 glass-card-hover rounded-lg text-cyberpunk-cyan hover:text-cyberpunk-pink transition-colors"
+              className="p-3 glass-card-hover rounded-lg text-light-primary hover:bg-light-listHover dark:text-cyberpunk-cyan dark:hover:text-cyberpunk-pink transition-colors"
               aria-label="Previous testimonial"
             >
               <FiChevronLeft className="text-2xl" aria-hidden="true" />
@@ -101,7 +101,7 @@ const Testimonials = () => {
             </div>
             <button
               onClick={nextTestimonial}
-              className="p-3 glass-card-hover rounded-lg text-cyberpunk-cyan hover:text-cyberpunk-pink transition-colors"
+              className="p-3 glass-card-hover rounded-lg text-light-primary hover:bg-light-listHover dark:text-cyberpunk-cyan dark:hover:text-cyberpunk-pink transition-colors"
               aria-label="Next testimonial"
             >
               <FiChevronRight className="text-2xl" aria-hidden="true" />

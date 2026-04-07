@@ -42,7 +42,7 @@ const Home = () => {
       <TrendingUpdates />
 
       {/* Stats Section – alternate background per Aurora */}
-      <section className="py-12 md:py-20 px-4 bg-light-bgAlt dark:bg-transparent">
+      <section className="py-12 md:py-20 px-4 bg-white dark:bg-transparent">
         <div className="container mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {stats.map((stat, index) => {
@@ -53,7 +53,7 @@ const Home = () => {
                   <div className="text-3xl md:text-4xl font-heading font-bold text-brand-college dark:text-cyberpunk-cyan mb-2">
                     {stat.value}
                   </div>
-                  <div className="text-light-textMuted dark:text-gray-400 text-sm md:text-base">{stat.label}</div>
+                  <div className="text-light-textCourse dark:text-gray-400 text-sm md:text-base">{stat.label}</div>
                 </GlassCard>
               )
             })}
@@ -64,7 +64,7 @@ const Home = () => {
       <Testimonials />
 
       {/* Contact/Request Callback Section */}
-      <section className="py-12 md:py-20 px-4">
+      <section className="py-12 md:py-20 px-4 bg-white dark:bg-transparent">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div className="flex flex-col justify-center">
@@ -87,11 +87,11 @@ const Home = () => {
       </section>
 
       {/* About Us Preview */}
-      <section className="py-12 md:py-20 px-4">
+      <section className="py-12 md:py-20 px-4 bg-light-bg dark:bg-transparent">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="section-title mb-6">About College Care</h2>
-            <p className="text-light-textMuted dark:text-gray-300 text-lg mb-8">
+            <p className="text-light-textCourse dark:text-gray-300 text-lg mb-8">
               College Care has been serving students for over 12 years, helping more than 
               1000 students successfully transition from school education to undergraduate programs 
               and continue with Master's degrees. We provide comprehensive guidance for both 
@@ -109,13 +109,13 @@ const Home = () => {
       </section>
 
       {/* Social Media Follow Section */}
-      <section className="py-12 md:py-20 px-4">
+      <section className="py-12 md:py-20 px-4 bg-white dark:bg-transparent">
         <div className="container mx-auto">
           <GlassCard className="p-8 md:p-12 text-center">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-brand-college dark:text-cyberpunk-cyan mb-6">
               Follow Us on Social Media
             </h2>
-            <p className="text-light-textMuted dark:text-gray-300 mb-8">
+            <p className="text-light-textCourse dark:text-gray-300 mb-8">
               Stay updated with the latest news, updates, and success stories from College Care.
             </p>
             <SocialLinks className="justify-center" iconSize="text-3xl" />

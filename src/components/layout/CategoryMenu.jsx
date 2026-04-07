@@ -1,5 +1,5 @@
 import { useState, useCallback, useEffect, useMemo, useRef } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { getCategoryMenuFromInstitutions } from "../../data/institutionsLoader";
 import { slugifyCollegeType } from "../../data/institutionUtils";
 import "../../styles/categoryMenu.css";
@@ -181,15 +181,17 @@ const CategoryMenu = ({ categories: categoriesProp }) => {
                                 )}
                                 <div className="category-dropdown-grid">
                                   {grp.colleges.map((college) => (
-                                    <Link
+                                    <NavLink
                                       key={college.slug}
                                       to={`/colleges/${category.slug}/${college.slug}`}
-                                      className="category-dropdown-link"
+                                      className={({ isActive }) =>
+                                        `category-dropdown-link${isActive ? " category-dropdown-link--active" : ""}`
+                                      }
                                       role="menuitem"
                                       onClick={closeDropdown}
                                     >
                                       {college.name}
-                                    </Link>
+                                    </NavLink>
                                   ))}
                                 </div>
                               </div>
@@ -199,15 +201,17 @@ const CategoryMenu = ({ categories: categoriesProp }) => {
                         ) : (
                           <div className="category-dropdown-grid">
                             {category.colleges.map((college) => (
-                              <Link
+                              <NavLink
                                 key={college.slug}
                                 to={`/colleges/${category.slug}/${college.slug}`}
-                                className="category-dropdown-link"
+                                className={({ isActive }) =>
+                                  `category-dropdown-link${isActive ? " category-dropdown-link--active" : ""}`
+                                }
                                 role="menuitem"
                                 onClick={closeDropdown}
                               >
                                 {college.name}
-                              </Link>
+                              </NavLink>
                             ))}
                           </div>
                         )}
@@ -268,15 +272,17 @@ const CategoryMenu = ({ categories: categoriesProp }) => {
                       <h3 className="category-colleges-type-heading">{selectedGroup.collegeType}</h3>
                       <div className="category-dropdown-grid">
                         {selectedGroup.colleges.map((college) => (
-                          <Link
+                          <NavLink
                             key={college.slug}
                             to={`/colleges/${activeCategory.slug}/${college.slug}`}
-                            className="category-dropdown-link"
+                            className={({ isActive }) =>
+                              `category-dropdown-link${isActive ? " category-dropdown-link--active" : ""}`
+                            }
                             role="menuitem"
                             onClick={closeDropdown}
                           >
                             {college.name}
-                          </Link>
+                          </NavLink>
                         ))}
                       </div>
                     </>
@@ -286,15 +292,17 @@ const CategoryMenu = ({ categories: categoriesProp }) => {
             ) : (
               <div className="category-dropdown-grid">
                 {activeCategory.colleges.map((college) => (
-                  <Link
+                  <NavLink
                     key={college.slug}
                     to={`/colleges/${activeCategory.slug}/${college.slug}`}
-                    className="category-dropdown-link"
+                    className={({ isActive }) =>
+                      `category-dropdown-link${isActive ? " category-dropdown-link--active" : ""}`
+                    }
                     role="menuitem"
                     onClick={closeDropdown}
                   >
                     {college.name}
-                  </Link>
+                  </NavLink>
                 ))}
               </div>
             )}
