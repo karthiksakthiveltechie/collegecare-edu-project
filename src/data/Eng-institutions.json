@@ -9,7 +9,7 @@
       "section_label": "Engineering_IIT_College_List",
       "institutions": [
         {
-          "id": "iit---tirupati",
+          "id": "iit-1",
           "external_code": "U-0844",
           "name": "IIT - Tirupati",
           "source": null,
@@ -22,7 +22,7 @@
           "status": "active"
         },
         {
-          "id": "iit---guwahati",
+          "id": "iit-2",
           "external_code": "U-0053",
           "name": "IIT - Guwahati",
           "source": null,
@@ -35,7 +35,7 @@
           "status": "active"
         },
         {
-          "id": "iit---patna",
+          "id": "iit-3",
           "external_code": "U-0064",
           "name": "IIT - Patna",
           "source": null,
@@ -48,7 +48,7 @@
           "status": "active"
         },
         {
-          "id": "iit---bhilai",
+          "id": "iit-4",
           "external_code": "U-0946",
           "name": "IIT - Bhilai",
           "source": null,
@@ -61,7 +61,7 @@
           "status": "active"
         },
         {
-          "id": "iit---delhi",
+          "id": "iit-5",
           "external_code": "U-0100",
           "name": "IIT - Delhi",
           "source": null,
@@ -74,7 +74,7 @@
           "status": "active"
         },
         {
-          "id": "iit---goa",
+          "id": "iit-6",
           "external_code": "U-0907",
           "name": "IIT - Goa",
           "source": null,
@@ -87,7 +87,7 @@
           "status": "active"
         },
         {
-          "id": "iit---gandhinagar",
+          "id": "iit-7",
           "external_code": "U-0139",
           "name": "IIT - Gandhinagar",
           "source": null,
@@ -100,7 +100,7 @@
           "status": "active"
         },
         {
-          "id": "iit---mandi",
+          "id": "iit-8",
           "external_code": "U-0184",
           "name": "IIT - Mandi",
           "source": null,
@@ -113,7 +113,7 @@
           "status": "active"
         },
         {
-          "id": "iit---jammu",
+          "id": "iit-9",
           "external_code": "U-0906",
           "name": "IIT - Jammu",
           "source": null,
@@ -126,7 +126,7 @@
           "status": "active"
         },
         {
-          "id": "iit-indian-school-of-mines---dhanbad",
+          "id": "iit-10",
           "external_code": "U-0205",
           "name": "IIT (Indian School of Mines) - Dhanbad",
           "source": null,
@@ -139,7 +139,7 @@
           "status": "active"
         },
         {
-          "id": "iit---dharwad",
+          "id": "iit-11",
           "external_code": "U-0899",
           "name": "IIT - Dharwad",
           "source": null,
@@ -152,7 +152,7 @@
           "status": "active"
         },
         {
-          "id": "iit---palakkad",
+          "id": "iit-12",
           "external_code": "U-0878",
           "name": "IIT - Palakkad",
           "source": null,
@@ -165,7 +165,7 @@
           "status": "active"
         },
         {
-          "id": "iit---indore",
+          "id": "iit-13",
           "external_code": "U-0273",
           "name": "IIT - Indore",
           "source": null,
@@ -178,7 +178,7 @@
           "status": "active"
         },
         {
-          "id": "iit---mumbai",
+          "id": "iit-14",
           "external_code": "U-0306",
           "name": "IIT - Mumbai",
           "source": null,
@@ -191,7 +191,7 @@
           "status": "active"
         },
         {
-          "id": "iit---bhubaneswar",
+          "id": "iit-15",
           "external_code": "U-0355",
           "name": "IIT - Bhubaneswar",
           "source": null,
@@ -204,7 +204,7 @@
           "status": "active"
         },
         {
-          "id": "iit---ropar",
+          "id": "iit-16",
           "external_code": "U-0378",
           "name": "IIT - Ropar",
           "source": null,
@@ -217,7 +217,7 @@
           "status": "active"
         },
         {
-          "id": "iit---jodhpur",
+          "id": "iit-17",
           "external_code": "U-0395",
           "name": "IIT - Jodhpur",
           "source": null,
@@ -230,7 +230,7 @@
           "status": "active"
         },
         {
-          "id": "iit---madras",
+          "id": "iit-18",
           "external_code": "U-0456",
           "name": "IIT - Madras",
           "source": null,
@@ -243,7 +243,7 @@
           "status": "active"
         },
         {
-          "id": "iit---hyderabad",
+          "id": "iit-19",
           "external_code": "U-0013",
           "name": "IIT - Hyderabad",
           "source": null,
@@ -256,7 +256,7 @@
           "status": "active"
         },
         {
-          "id": "iit---kanpur",
+          "id": "iit-20",
           "external_code": "U-0517",
           "name": "IIT - Kanpur",
           "source": null,
@@ -269,7 +269,7 @@
           "status": "active"
         },
         {
-          "id": "iitbanaras-hindu-university---varanasi",
+          "id": "iit-21",
           "external_code": "U-0701",
           "name": "IIT(Banaras Hindu University) - Varanasi",
           "source": null,
@@ -282,7 +282,7 @@
           "status": "active"
         },
         {
-          "id": "iit---roorkee",
+          "id": "iit-22",
           "external_code": "U-0560",
           "name": "IIT - Roorkee",
           "source": null,
@@ -295,7 +295,7 @@
           "status": "active"
         },
         {
-          "id": "iit---kharagpur",
+          "id": "iit-23",
           "external_code": "U-0573",
           "name": "IIT - Kharagpur",
           "source": null,
@@ -310,157 +310,1100 @@
       ]
     },
     {
-      "section_id": "tn_govt",
-      "section_label": "TN Govt",
+      "id": "nit",
+      "label": "NIT",
       "institutions": [
         {
-          "id": "tn_govt-1",
-          "external_code": "1516",
-          "name": "Thanthai Periyar Government Institute of Technology",
-          "source": "State Govt",
-          "funding": "State",
-          "city": "Vellore",
-          "state": "Tamil Nadu",
-          "address": "Bagayam, Vellore District 632002",
+          "id": "nit-1",
+          "external_code": null,
+          "name": "National Institute of Technology Agartala",
+          "source": null,
+          "funding": null,
+          "city": "Agartala",
+          "state": "Tripura",
+          "address": "Barjala, Jirania",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
         },
         {
-          "id": "tn_govt-2",
-          "external_code": "2005",
-          "name": "Government College of Technology Coimbatore (Autonomous)",
-          "source": "State Govt",
-          "funding": "State",
-          "city": "Coimbatore",
-          "state": "Tamil Nadu",
-          "address": "Thadagam Road, Coimbatore District 641013",
+          "id": "nit-2",
+          "external_code": null,
+          "name": "National Institute of Technology Mizoram",
+          "source": null,
+          "funding": null,
+          "city": "Aizawl",
+          "state": "Mizoram",
+          "address": "Chaltlang Dawrkawn",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
         },
         {
-          "id": "tn_govt-3",
-          "external_code": "2369",
-          "name": "Government College of Engineering Dharmapuri",
-          "source": "State Govt",
-          "funding": "State",
-          "city": "Dharmapuri",
-          "state": "Tamil Nadu",
-          "address": "Chettikkarai Post, Dharmapuri District 635704",
+          "id": "nit-3",
+          "external_code": null,
+          "name": "Motilal Nehru National Institute of Technology Allahabad",
+          "source": null,
+          "funding": null,
+          "city": "Prayagraj",
+          "state": "Uttar Pradesh",
+          "address": "Teliarganj",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
         },
         {
-          "id": "tn_govt-4",
-          "external_code": "2603",
-          "name": "Government College of Engineering Krishnagiri (Autonomous)",
-          "source": "State Govt",
-          "funding": "State",
-          "city": "Krishnagiri",
-          "state": "Tamil Nadu",
-          "address": "Bargur, Krishnagiri District 635104",
+          "id": "nit-4",
+          "external_code": null,
+          "name": "Maulana Azad National Institute of Technology Bhopal",
+          "source": null,
+          "funding": null,
+          "city": "Bhopal",
+          "state": "Madhya Pradesh",
+          "address": "Link Road No. 3",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
         },
         {
-          "id": "tn_govt-5",
-          "external_code": "2615",
-          "name": "Government College of Engineering Salem (Autonomous)",
-          "source": "State Govt",
-          "funding": "State",
-          "city": "Salem",
-          "state": "Tamil Nadu",
-          "address": "Karuppur, Salem District 636011",
+          "id": "nit-5",
+          "external_code": null,
+          "name": "National Institute of Technology Calicut",
+          "source": null,
+          "funding": null,
+          "city": "Kozhikode",
+          "state": "Kerala",
+          "address": "NIT Campus",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
         },
         {
-          "id": "tn_govt-6",
-          "external_code": "2709",
-          "name": "Government College of Engineering Erode (Formerly Institute of Road and Transport Technology)",
-          "source": "State Govt",
-          "funding": "State",
-          "city": "Erode",
-          "state": "Tamil Nadu",
-          "address": "Vasavi College Post, Erode District 638316",
+          "id": "nit-6",
+          "external_code": null,
+          "name": "National Institute of Technology Delhi",
+          "source": null,
+          "funding": null,
+          "city": "Delhi",
+          "state": "Delhi",
+          "address": "GT Karnal Road",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
         },
         {
-          "id": "tn_govt-7",
-          "external_code": "3464",
-          "name": "Government College of Engineering Thanjavur",
-          "source": "State Govt",
-          "funding": "State",
-          "city": "Thanjavur",
-          "state": "Tamil Nadu",
-          "address": "Gandarvakottai Road, Sengipatti, Thanjavur District 613402",
+          "id": "nit-7",
+          "external_code": null,
+          "name": "National Institute of Technology Nagaland",
+          "source": null,
+          "funding": null,
+          "city": "Dimapur",
+          "state": "Nagaland",
+          "address": "Chumukedima",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
         },
         {
-          "id": "tn_govt-8",
-          "external_code": "3465",
-          "name": "Government College of Engineering Tiruchirappalli",
-          "source": "State Govt",
-          "funding": "State",
+          "id": "nit-8",
+          "external_code": null,
+          "name": "National Institute of Technology Durgapur",
+          "source": null,
+          "funding": null,
+          "city": "Durgapur",
+          "state": "West Bengal",
+          "address": "Mahatma Gandhi Avenue",
+          "zip": null,
+          "official_website": null,
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
+        },
+        {
+          "id": "nit-9",
+          "external_code": null,
+          "name": "National Institute of Technology Uttarakhand",
+          "source": null,
+          "funding": null,
+          "city": "Srinagar",
+          "state": "Uttarakhand",
+          "address": "Srinagar Campus",
+          "zip": null,
+          "official_website": null,
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
+        },
+        {
+          "id": "nit-10",
+          "external_code": null,
+          "name": "National Institute of Technology Goa",
+          "source": null,
+          "funding": null,
+          "city": "Ponda",
+          "state": "Goa",
+          "address": "Farmagudi, Ponda",
+          "zip": null,
+          "official_website": null,
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
+        },
+        {
+          "id": "nit-11",
+          "external_code": null,
+          "name": "National Institute of Technology Hamirpur",
+          "source": null,
+          "funding": null,
+          "city": "Hamirpur",
+          "state": "Himachal Pradesh",
+          "address": "Anu",
+          "zip": null,
+          "official_website": null,
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
+        },
+        {
+          "id": "nit-12",
+          "external_code": null,
+          "name": "National Institute of Technology Manipur",
+          "source": null,
+          "funding": null,
+          "city": "Imphal",
+          "state": "Manipur",
+          "address": "Langol",
+          "zip": null,
+          "official_website": null,
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
+        },
+        {
+          "id": "nit-13",
+          "external_code": null,
+          "name": "Malaviya National Institute of Technology Jaipur",
+          "source": null,
+          "funding": null,
+          "city": "Jaipur",
+          "state": "Rajasthan",
+          "address": "JLN Marg",
+          "zip": null,
+          "official_website": null,
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
+        },
+        {
+          "id": "nit-14",
+          "external_code": null,
+          "name": "Dr. B R Ambedkar National Institute of Technology Jalandhar",
+          "source": null,
+          "funding": null,
+          "city": "Jalandhar",
+          "state": "Punjab",
+          "address": "G.T. Road",
+          "zip": null,
+          "official_website": null,
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
+        },
+        {
+          "id": "nit-15",
+          "external_code": null,
+          "name": "National Institute of Technology Jamshedpur",
+          "source": null,
+          "funding": null,
+          "city": "Jamshedpur",
+          "state": "Jharkhand",
+          "address": "Adityapur",
+          "zip": null,
+          "official_website": null,
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
+        },
+        {
+          "id": "nit-16",
+          "external_code": null,
+          "name": "National Institute of Technology Puducherry",
+          "source": null,
+          "funding": null,
+          "city": "Karaikal",
+          "state": "Puducherry",
+          "address": "Karaikal Campus",
+          "zip": null,
+          "official_website": null,
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
+        },
+        {
+          "id": "nit-17",
+          "external_code": null,
+          "name": "National Institute of Technology Kurukshetra",
+          "source": null,
+          "funding": null,
+          "city": "Kurukshetra",
+          "state": "Haryana",
+          "address": "Thanesar",
+          "zip": null,
+          "official_website": null,
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
+        },
+        {
+          "id": "nit-18",
+          "external_code": null,
+          "name": "National Institute of Technology Karnataka Surathkal",
+          "source": null,
+          "funding": null,
+          "city": "Mangalore",
+          "state": "Karnataka",
+          "address": "NH-66",
+          "zip": null,
+          "official_website": null,
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
+        },
+        {
+          "id": "nit-19",
+          "external_code": null,
+          "name": "Visvesvaraya National Institute of Technology Nagpur",
+          "source": null,
+          "funding": null,
+          "city": "Nagpur",
+          "state": "Maharashtra",
+          "address": "South Ambazari Road",
+          "zip": null,
+          "official_website": null,
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
+        },
+        {
+          "id": "nit-20",
+          "external_code": null,
+          "name": "National Institute of Technology Patna",
+          "source": null,
+          "funding": null,
+          "city": "Patna",
+          "state": "Bihar",
+          "address": "Ashok Rajpath",
+          "zip": null,
+          "official_website": null,
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
+        },
+        {
+          "id": "nit-21",
+          "external_code": null,
+          "name": "National Institute of Technology Raipur",
+          "source": null,
+          "funding": null,
+          "city": "Raipur",
+          "state": "Chhattisgarh",
+          "address": "G.E. Road",
+          "zip": null,
+          "official_website": null,
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
+        },
+        {
+          "id": "nit-22",
+          "external_code": null,
+          "name": "National Institute of Technology Rourkela",
+          "source": null,
+          "funding": null,
+          "city": "Rourkela",
+          "state": "Odisha",
+          "address": "NIT Campus",
+          "zip": null,
+          "official_website": null,
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
+        },
+        {
+          "id": "nit-23",
+          "external_code": null,
+          "name": "Indian Institute of Engineering Science and Technology (IIEST) Shibpur",
+          "source": null,
+          "funding": null,
+          "city": "Howrah",
+          "state": "West Bengal",
+          "address": "Botanic Garden",
+          "zip": null,
+          "official_website": null,
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
+        },
+        {
+          "id": "nit-24",
+          "external_code": null,
+          "name": "National Institute of Technology Meghalaya",
+          "source": null,
+          "funding": null,
+          "city": "Shillong",
+          "state": "Meghalaya",
+          "address": "Laitumkhrah",
+          "zip": null,
+          "official_website": null,
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
+        },
+        {
+          "id": "nit-25",
+          "external_code": null,
+          "name": "National Institute of Technology Silchar",
+          "source": null,
+          "funding": null,
+          "city": "Silchar",
+          "state": "Assam",
+          "address": "Silchar Campus",
+          "zip": null,
+          "official_website": null,
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
+        },
+        {
+          "id": "nit-26",
+          "external_code": null,
+          "name": "National Institute of Technology Sikkim",
+          "source": null,
+          "funding": null,
+          "city": "Ravangla",
+          "state": "Sikkim",
+          "address": "Ravangla Campus",
+          "zip": null,
+          "official_website": null,
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
+        },
+        {
+          "id": "nit-27",
+          "external_code": null,
+          "name": "National Institute of Technology Srinagar",
+          "source": null,
+          "funding": null,
+          "city": "Srinagar",
+          "state": "Jammu & Kashmir",
+          "address": "Hazratbal",
+          "zip": null,
+          "official_website": null,
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
+        },
+        {
+          "id": "nit-28",
+          "external_code": null,
+          "name": "S V National Institute of Technology Surat",
+          "source": null,
+          "funding": null,
+          "city": "Surat",
+          "state": "Gujarat",
+          "address": "Ichchhanath",
+          "zip": null,
+          "official_website": null,
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
+        },
+        {
+          "id": "nit-29",
+          "external_code": null,
+          "name": "National Institute of Technology Andhra Pradesh",
+          "source": null,
+          "funding": null,
+          "city": "West Godavari",
+          "state": "Andhra Pradesh",
+          "address": "Tadepalligudem",
+          "zip": null,
+          "official_website": null,
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
+        },
+        {
+          "id": "nit-30",
+          "external_code": null,
+          "name": "National Institute of Technology Tiruchirappalli",
+          "source": null,
+          "funding": null,
           "city": "Tiruchirappalli",
           "state": "Tamil Nadu",
-          "address": "Srirangam, Sethurappatti, Tiruchirappalli District 620012",
+          "address": "Tanjore Road",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
         },
         {
-          "id": "tn_govt-9",
-          "external_code": "4974",
-          "name": "Government College of Engineering Tirunelveli",
-          "source": "State Govt",
-          "funding": "State",
-          "city": "Tirunelveli",
-          "state": "Tamil Nadu",
-          "address": "Tirunelveli District 627007",
+          "id": "nit-31",
+          "external_code": null,
+          "name": "National Institute of Technology Warangal",
+          "source": null,
+          "funding": null,
+          "city": "Warangal",
+          "state": "Telangana",
+          "address": "Kazipet",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
         },
         {
-          "id": "tn_govt-10",
-          "external_code": "5009",
-          "name": "Government College of Engineering Theni",
-          "source": "State Govt",
-          "funding": "State",
-          "city": "Theni",
-          "state": "Tamil Nadu",
-          "address": "Melachokkanathapuram, Bodinayakkanur, Theni District 625582",
+          "id": "nit-32",
+          "external_code": null,
+          "name": "National Institute of Technology Arunachal Pradesh",
+          "source": null,
+          "funding": null,
+          "city": "Papum Pare",
+          "state": "Arunachal Pradesh",
+          "address": "Yupia",
           "zip": null,
           "official_website": null,
-          "status": "active"
-        },
-        {
-          "id": "tn_govt-11",
-          "external_code": "5901",
-          "name": "Alagappa Chettiar Government College of Engineering and Technology (Autonomous)",
-          "source": "State Govt",
-          "funding": "State",
-          "city": "Sivagangai",
-          "state": "Tamil Nadu",
-          "address": "Karaikudi, Sivagangai District 630004",
-          "zip": null,
-          "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "nit",
+          "sub_category": null
         }
       ]
     },
     {
-      "section_id": "tn_private",
-      "section_label": "TN Private",
+      "id": "tn_govt",
+      "label": "TN Government",
+      "children": [
+        {
+          "id": "university",
+          "label": "University",
+          "institutions": [
+            {
+              "id": "tn_university-1",
+              "external_code": "1",
+              "name": "University Departments of Anna University, Chennai CEG Campus",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Chennai",
+              "state": "Tamil Nadu",
+              "address": "Sardar Patel Road, Guindy, Chennai 600 025",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "University"
+            },
+            {
+              "id": "tn_university-2",
+              "external_code": "2",
+              "name": "University Departments of Anna University, Chennai ACT Campus",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Chennai",
+              "state": "Tamil Nadu",
+              "address": "Sardar Patel Road, Guindy, Chennai 600 025",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "University"
+            },
+            {
+              "id": "tn_university-3",
+              "external_code": "3",
+              "name": "School of Architecture and Planning",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Chennai",
+              "state": "Tamil Nadu",
+              "address": "Anna University,Chennai 600025",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "University"
+            },
+            {
+              "id": "tn_university-4",
+              "external_code": "4",
+              "name": "University Departments of Anna University, Chennai MIT Campus",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Chennai",
+              "state": "Tamil Nadu",
+              "address": "Chrompet, Tambaram Taluk, Chengalpattu District 600 044",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "University"
+            },
+            {
+              "id": "tn_university-5",
+              "external_code": "5",
+              "name": "Annamalai University Faculty of Engineering and Technology",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Cuddalore",
+              "state": "Tamil Nadu",
+              "address": "Annamalai nagar,Cuddalore",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "University"
+            }
+          ]
+        },
+        {
+          "id": "constituent",
+          "label": "Constituent",
+          "institutions": [
+            {
+              "id": "tn_govt-constituent-1",
+              "external_code": "1013",
+              "name": "University College of Engineering - Villupuram",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Villupuram",
+              "state": "Tamil Nadu",
+              "address": "Kakuppam, Villupuram District 605103",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Constituent"
+            },
+            {
+              "id": "tn_govt-constituent-2",
+              "external_code": "1014",
+              "name": "University College of Engineering - Tindivanam",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Villupuram",
+              "state": "Tamil Nadu",
+              "address": "Melpakkam, Tindivanam, Villupuram District 604001",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Constituent"
+            },
+            {
+              "id": "tn_govt-constituent-3",
+              "external_code": "1015",
+              "name": "University College of Engineering - Arni",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Thiruvannamalai",
+              "state": "Tamil Nadu",
+              "address": "Arni to Devikapuram Road, Thatchur, Arni, Thiruvannamalai District 632326",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Constituent"
+            },
+            {
+              "id": "tn_govt-constituent-4",
+              "external_code": "1026",
+              "name": "University College of Engineering - Kancheepuram",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Kancheepuram",
+              "state": "Tamil Nadu",
+              "address": "Ponnerikarai Campus, NH4, Chennai- Bangalore Highway, Karaipettai Village & Post, Kancheepuram District 631552",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Constituent"
+            },
+            {
+              "id": "tn_govt-constituent-5",
+              "external_code": "2025",
+              "name": "Anna University Regional Campus - Coimbatore",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Coimbatore",
+              "state": "Tamil Nadu",
+              "address": "Maruthamalai Main Road, Navavoor Bharathiyar University Post, Somayampalayam, Coimbatore District 641046",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Constituent"
+            },
+            {
+              "id": "tn_govt-constituent-6",
+              "external_code": "3011",
+              "name": "University College of Engineering - Tiruchirappalli (Bharathidasan Institute of Technology)",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Tiruchirappalli",
+              "state": "Tamil Nadu",
+              "address": "Tiruchirappalli District 620024",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Constituent"
+            },
+            {
+              "id": "tn_govt-constituent-7",
+              "external_code": "3016",
+              "name": "University College of Engineering - Ariyalur",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Ariyalur",
+              "state": "Tamil Nadu",
+              "address": "Kathankudikadu Village, Thelur Post, Ariyalur District 621704",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Constituent"
+            },
+            {
+              "id": "tn_govt-constituent-8",
+              "external_code": "3018",
+              "name": "University College of Engineering - Nagappattinam",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Nagappattinam",
+              "state": "Tamil Nadu",
+              "address": "Thirukkuvalai, Nagappattinam District 610204",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Constituent"
+            },
+            {
+              "id": "tn_govt-constituent-9",
+              "external_code": "3019",
+              "name": "University College of Engineering - Panruti",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Cuddalore",
+              "state": "Tamil Nadu",
+              "address": "Chennai-Kumbakonam Highway, Panikkankuppam, Panruti, Cuddalore District 607106",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Constituent"
+            },
+            {
+              "id": "tn_govt-constituent-10",
+              "external_code": "3021",
+              "name": "University College of Engineering - Pattukkottai",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Thanjavur",
+              "state": "Tamil Nadu",
+              "address": "ECR Road, Rajamadam, Pattukkottai Taluk, Thanjavur District 614701",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Constituent"
+            },
+            {
+              "id": "tn_govt-constituent-11",
+              "external_code": "4020",
+              "name": "Anna University Regional Campus - Tirunelveli",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Tirunelveli",
+              "state": "Tamil Nadu",
+              "address": "Trivandrum Road, Palayamkottai, Tirunelveli District 627007",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Constituent"
+            },
+            {
+              "id": "tn_govt-constituent-12",
+              "external_code": "4023",
+              "name": "University College of Engineering - Nagercoil",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Kanyakumari",
+              "state": "Tamil Nadu",
+              "address": "Nagercoil Industrial Estate, Konam, Kanyakumari District 629004",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Constituent"
+            },
+            {
+              "id": "tn_govt-constituent-13",
+              "external_code": "4024",
+              "name": "University V.O.C. College of Engineering - Thoothukudi",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Thoothukudi",
+              "state": "Tamil Nadu",
+              "address": "Near V.O.C. College, Millerpuram, Thoothukudi District 628008",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Constituent"
+            },
+            {
+              "id": "tn_govt-constituent-14",
+              "external_code": "5010",
+              "name": "Anna University Regional Campus - Madurai",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Madurai",
+              "state": "Tamil Nadu",
+              "address": "Kanyakumari National Highway, Keelakuilkudi, Madurai District 625019",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Constituent"
+            },
+            {
+              "id": "tn_govt-constituent-15",
+              "external_code": "5017",
+              "name": "University College of Engineering - Ramanathapuram",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Ramanathapuram",
+              "state": "Tamil Nadu",
+              "address": "Pullangudi, Ramanathapuram District 623513",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Constituent"
+            },
+            {
+              "id": "tn_govt-constituent-16",
+              "external_code": "5022",
+              "name": "University College of Engineering - Dindigul",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Dindigul",
+              "state": "Tamil Nadu",
+              "address": "Mangarai Pirivu, Reddiyarchathiram, Dindigul District 624622",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Constituent"
+            }
+          ]
+        },
+        {
+          "id": "govt_colleges",
+          "label": "Govt Colleges",
+          "institutions": [
+            {
+              "id": "tn_govt-1",
+              "external_code": "1516",
+              "name": "Thanthai Periyar Government Institute of Technology",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Vellore",
+              "state": "Tamil Nadu",
+              "address": "Bagayam, Vellore District 632002",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Government Colleges"
+            },
+            {
+              "id": "tn_govt-2",
+              "external_code": "2005",
+              "name": "Government College of Technology Coimbatore (Autonomous)",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Coimbatore",
+              "state": "Tamil Nadu",
+              "address": "Thadagam Road, Coimbatore District 641013",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Government Colleges"
+            },
+            {
+              "id": "tn_govt-3",
+              "external_code": "2369",
+              "name": "Government College of Engineering Dharmapuri",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Dharmapuri",
+              "state": "Tamil Nadu",
+              "address": "Chettikkarai Post, Dharmapuri District 635704",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Government Colleges"
+            },
+            {
+              "id": "tn_govt-4",
+              "external_code": "2603",
+              "name": "Government College of Engineering Krishnagiri (Autonomous)",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Krishnagiri",
+              "state": "Tamil Nadu",
+              "address": "Bargur, Krishnagiri District 635104",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Government Colleges"
+            },
+            {
+              "id": "tn_govt-5",
+              "external_code": "2615",
+              "name": "Government College of Engineering Salem (Autonomous)",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Salem",
+              "state": "Tamil Nadu",
+              "address": "Karuppur, Salem District 636011",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Government Colleges"
+            },
+            {
+              "id": "tn_govt-6",
+              "external_code": "2709",
+              "name": "Government College of Engineering Erode (Formerly Institute of Road and Transport Technology)",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Erode",
+              "state": "Tamil Nadu",
+              "address": "Vasavi College Post, Erode District 638316",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Government Colleges"
+            },
+            {
+              "id": "tn_govt-7",
+              "external_code": "3464",
+              "name": "Government College of Engineering Thanjavur",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Thanjavur",
+              "state": "Tamil Nadu",
+              "address": "Gandarvakottai Road, Sengipatti, Thanjavur District 613402",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Government Colleges"
+            },
+            {
+              "id": "tn_govt-8",
+              "external_code": "3465",
+              "name": "Government College of Engineering Tiruchirappalli",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Tiruchirappalli",
+              "state": "Tamil Nadu",
+              "address": "Srirangam, Sethurappatti, Tiruchirappalli District 620012",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Government Colleges"
+            },
+            {
+              "id": "tn_govt-9",
+              "external_code": "4974",
+              "name": "Government College of Engineering Tirunelveli",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Tirunelveli",
+              "state": "Tamil Nadu",
+              "address": "Tirunelveli District 627007",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Government Colleges"
+            },
+            {
+              "id": "tn_govt-10",
+              "external_code": "5009",
+              "name": "Government College of Engineering Theni",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Theni",
+              "state": "Tamil Nadu",
+              "address": "Melachokkanathapuram, Bodinayakkanur, Theni District 625582",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Government Colleges"
+            },
+            {
+              "id": "tn_govt-11",
+              "external_code": "5901",
+              "name": "Alagappa Chettiar Government College of Engineering and Technology (Autonomous)",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Sivagangai",
+              "state": "Tamil Nadu",
+              "address": "Karaikudi, Sivagangai District 630004",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Government Colleges"
+            }
+          ]
+        },
+        {
+          "id": "government_aided",
+          "label": "Government Aided",
+          "institutions": [
+            {
+              "id": "tn_govt-government_aided-1",
+              "external_code": "2006",
+              "name": "PSG College of Technology (Autonomous)",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Coimbatore",
+              "state": "Tamil Nadu",
+              "address": "Peelamedu, Coimbatore District 641004",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Government Aided"
+            },
+            {
+              "id": "tn_govt-government_aided-2",
+              "external_code": "2007",
+              "name": "Coimbatore Institute of Technology (Autonomous)",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Coimbatore",
+              "state": "Tamil Nadu",
+              "address": "Civil Aerodrome Post, Coimbatore District 641014",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Government Aided"
+            },
+            {
+              "id": "tn_govt-government_aided-3",
+              "external_code": "5008",
+              "name": "Thiagarajar College of Engineering (Autonomous)",
+              "source": "State Govt",
+              "funding": "State",
+              "city": "Madurai",
+              "state": "Tamil Nadu",
+              "address": "Tirupparankundram, Madurai District 625015",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Government Aided"
+            }
+          ]
+        },
+        {
+          "id": "central",
+          "label": "Central",
+          "institutions": [
+            {
+              "id": "tn_govt-central-1",
+              "external_code": "1321",
+              "name": "Central Institute of Petrochemicals Engineering and Technology (Formerly Central Institute of Plastics Engineering and Technology-CIPET)",
+              "source": "Central Govt",
+              "funding": "Central",
+              "city": "Chennai",
+              "state": "Tamil Nadu",
+              "address": "Guindy, Chennai 600032",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Central"
+            },
+            {
+              "id": "tn_govt-central-2",
+              "external_code": "2343",
+              "name": "Indian Institute of Handloom Technology",
+              "source": "Central Govt",
+              "funding": "Central",
+              "city": "Salem",
+              "state": "Tamil Nadu",
+              "address": "Foulke s Compound, Thillai Nagar, Salem District 636001",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Central"
+            },
+            {
+              "id": "tn_govt-central-3",
+              "external_code": "5012",
+              "name": "Central Electrochemical Research Institute (CECRI)",
+              "source": "Central Govt",
+              "funding": "Central",
+              "city": "Sivagangai",
+              "state": "Tamil Nadu",
+              "address": "Karaikudi, Sivagangai District 630006",
+              "zip": null,
+              "official_website": null,
+              "status": "active",
+              "category": "tn_govt",
+              "sub_category": "Central"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tn_private",
+      "label": "TN Private",
       "institutions": [
         {
           "id": "tn_private-1",
@@ -473,7 +1416,9 @@
           "address": "Muthapudupet, Avadi IAF, Chennai 600055",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-2",
@@ -486,7 +1431,9 @@
           "address": "Ayathur Village, Veppampattu (Rs) Thiruvallur Taluk and District Tamilnadu 602024",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-3",
@@ -499,7 +1446,9 @@
           "address": "Thirunindravur, Chennai 602024",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-4",
@@ -512,7 +1461,9 @@
           "address": "Kanchipadi Post, Thiruvallur-Tiruttani NH  Road, Thiruvallur District 631204",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-5",
@@ -525,7 +1476,9 @@
           "address": "Aranvoyalkuppam, Thiruvallur District 602025",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-6",
@@ -538,7 +1491,9 @@
           "address": "Kavaraipettai, Gummidipoondi, Thiruvallur District 601206",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-7",
@@ -551,7 +1506,9 @@
           "address": "Kavaraipettai, Gummidipoondi, Thiruvallur District 601206",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-8",
@@ -564,7 +1521,9 @@
           "address": "Thiruverkadu, Chennai 600077",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-9",
@@ -577,7 +1536,9 @@
           "address": "R.S, Perumalpattu - Kottamedu Rd, Veppambaattu, Perumalpattu-602024",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-10",
@@ -590,7 +1551,9 @@
           "address": "Thirupachur, Thiruvallur District 631203",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-11",
@@ -603,7 +1566,9 @@
           "address": "Avadi-Alamathi Road, Chennai 600 062",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-12",
@@ -616,7 +1581,9 @@
           "address": "Ambattur-Redhills Road, Chennai 600066",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-13",
@@ -629,7 +1596,9 @@
           "address": "Kozhundalur, Thiruvallur District 631203",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-14",
@@ -642,7 +1611,9 @@
           "address": "Avadi-Alamathi Road, Chennai 600 062",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-15",
@@ -655,7 +1626,9 @@
           "address": "Alamathi, Chennai 600062",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-16",
@@ -668,7 +1641,9 @@
           "address": "Panappakkam, Chennai-Tirupathi Road, Uthukkottai Taluk, Thiruvallur District 601102",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-17",
@@ -681,7 +1656,9 @@
           "address": "Ushaa Garden, Kannigaipair Village, Uthukottai Taluk, Thiruvallur District 601102",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-18",
@@ -694,7 +1671,9 @@
           "address": "College Road, Avadi, Chennai 600 054",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-19",
@@ -707,7 +1686,9 @@
           "address": "Puduvoyal, Gummidipoondi Taluk, Thiruvallur District 601206",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-20",
@@ -720,7 +1701,9 @@
           "address": "Poonamallee By-Pass Road, Poonamallee, Chennai 600 056",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-21",
@@ -733,7 +1716,9 @@
           "address": "Marg Swarnabhoomi, Velur Village, Cheyyur Post, Chengalpattu District  603302",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-22",
@@ -746,7 +1731,9 @@
           "address": "Thandalam, Sriperumpudur Taluk, Kancheepuram District 602105",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-23",
@@ -759,7 +1746,9 @@
           "address": "Gandhi Road, Nedungundram, Chennai 600048",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-24",
@@ -772,7 +1761,9 @@
           "address": "Muthapudupet, Avadi IAF, Chennai 600055",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-25",
@@ -785,7 +1776,9 @@
           "address": "Arcot Road, Arappakkam Village, Walaja Taulk, Ranipet District 632 517",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-26",
@@ -798,7 +1791,9 @@
           "address": "Rajiv Gandhi Salai, Karapakkam, Chennai, Chengalpattu District 600097",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-27",
@@ -811,7 +1806,9 @@
           "address": "kunnam Village,Sriperumpudur Taulk,Kancheepuram District 631604",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-28",
@@ -824,7 +1821,9 @@
           "address": "No13, Sethilpakkam Village, Roshanagaram Post, Madarpakkam,Thiruvallur District, Gummidipoondi- 601202",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-29",
@@ -837,7 +1836,9 @@
           "address": "Rajiv Gandhi Salai (OMR), Thoraipakkam, Chengalpattu 600096",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-30",
@@ -850,7 +1851,9 @@
           "address": "C.Abdul Hakeem College Campus, Hakeem Nagar, Melvisharam, Ranipet District 632509",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-31",
@@ -863,7 +1866,9 @@
           "address": "Jeppiaar Nagar, Old Mahabalipuram Road (OMR), Chennai 600119",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-32",
@@ -876,7 +1881,9 @@
           "address": "51 N, Elavur, 58N, Natham, Gummidipoondi Taluk, Thiruvallur District 601201",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-33",
@@ -889,7 +1896,9 @@
           "address": "No.516-2, Kannigaiper, Chennai- Thirupathi Highway, Near Periyapalayam Amman Temple, Chennai 601102",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-34",
@@ -902,7 +1911,9 @@
           "address": "Palanchoor, Nazrethpet, Chennai 602103",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-35",
@@ -915,7 +1926,9 @@
           "address": "Sriperumpudur Taluk, Kancheepuram District 602105",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-36",
@@ -928,7 +1941,9 @@
           "address": "Thimmasamudram, Kancheepuram District 631502",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-37",
@@ -941,7 +1956,9 @@
           "address": "Nazarethpet, Poonamallee, Chennai 600123",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-38",
@@ -954,7 +1971,9 @@
           "address": "Thandalam, Sriperumpudur Taluk, Kancheepuram District 602105",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-39",
@@ -967,7 +1986,9 @@
           "address": "Nemili, Sriperumpudur Taluk, Kancheepuram District 602105",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-40",
@@ -980,7 +2001,9 @@
           "address": "Thandalam, Sriperumpudur Taluk, Kancheepuram District 602105",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-41",
@@ -993,7 +2016,9 @@
           "address": "Chembarambakkam, Chennai 600103",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-42",
@@ -1006,7 +2031,9 @@
           "address": "Near Mangadu, Chennai 600069",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-43",
@@ -1019,7 +2046,9 @@
           "address": "Post Bag No.1, Chennai-Bengaluru High Road, Pennalur, Irungattukottai S.O., Sriperumbudur Taluk, Kancheepuram District 602105",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-44",
@@ -1032,7 +2061,9 @@
           "address": "Parivakkam, Poonamallee, Chennai 600056",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-45",
@@ -1045,7 +2076,9 @@
           "address": "Irungkattukottai, Sriperumpudur Taluk, Kancheepuram District 602117",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-46",
@@ -1058,7 +2091,9 @@
           "address": "Mevaloorkuppam, B Village, Palanchoor, Nazarethpet Post, Chennai 600123",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-47",
@@ -1071,7 +2106,9 @@
           "address": "Oovery, Veliyur Post, Kancheepuram District 631 502",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-48",
@@ -1084,7 +2121,9 @@
           "address": "No.34, Udayavar Koil Street, Poonamallee, Thirumazhisai, Chennai",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-49",
@@ -1097,7 +2136,9 @@
           "address": "VGR Gardens, Pandur, Thiruvallur District 631203",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-50",
@@ -1110,7 +2151,9 @@
           "address": "Mevaloorkuppam, Valarpuram Post, Sriperumpudur, Kancheepuram District 602105",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-51",
@@ -1123,7 +2166,9 @@
           "address": "Sattamangalam, Maraimalainagar, Chengalpattu District 603209",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-52",
@@ -1136,7 +2181,9 @@
           "address": "Pazhayaseevaram, Madura Sankarapuram Village, Kancheepuram District 631605",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-53",
@@ -1149,7 +2196,9 @@
           "address": "Vishaandikuppam,Karappettai (via), Siruvakkam, Kancheepuram District 631 552",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-54",
@@ -1162,7 +2211,9 @@
           "address": "Chennai-Kolkatta Highway, Panchetti Village, Ponneri Taluk, Thiruvallur District 601204",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-55",
@@ -1175,7 +2226,9 @@
           "address": "GRT Mahalakshmi Nagar, Chennai-Tirupathi Highway, Tiruttani Taluk, Thiruvallur District 631209",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-56",
@@ -1188,7 +2241,9 @@
           "address": "Peruvoyal, Near Kavaraipettai, Gummidipoondi Taluk, Thiruvallur District 601206",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-57",
@@ -1201,7 +2256,9 @@
           "address": "Erandamkattalai, Tharapakkam, Chennai - 600128",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-58",
@@ -1214,7 +2271,9 @@
           "address": "Old Mahabalipuram Road (OMR), Egattur, Chengalpattu District 603103",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-59",
@@ -1227,7 +2286,9 @@
           "address": "Old Mahabalipuram Road (OMR), Kazhipattur, Chengalpattu District  603103",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-60",
@@ -1240,7 +2301,9 @@
           "address": "Ramapuram, Chennai 600089",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-61",
@@ -1253,7 +2316,9 @@
           "address": "Old Mahabalipuram Road (OMR), Chennai 600119",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-62",
@@ -1266,7 +2331,9 @@
           "address": "Narayanapuram, Pallikaranai, Chennai 600 100",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-63",
@@ -1279,7 +2346,9 @@
           "address": "Association Gardens 87, Peters Road, Royapettah, Chennai 600 014",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-64",
@@ -1292,7 +2361,9 @@
           "address": "Kodambakkam, Chennai 600024",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-65",
@@ -1305,7 +2376,9 @@
           "address": "Rajiv Gandhi Salai (OMR), Thorappakkam, Chennai 600096",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-66",
@@ -1318,7 +2391,9 @@
           "address": "Karappakkam, Chennai 600096",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-67",
@@ -1331,7 +2406,9 @@
           "address": "Kalavakkam, Old Mahabalipuram Road (OMR), Chengalpattu District 603110",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-68",
@@ -1344,7 +2421,9 @@
           "address": "Old Mahabalipuram Road (OMR), Thalambur Village, Chengalpattu District 603103",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-69",
@@ -1357,7 +2436,9 @@
           "address": "Old Mahabalipuram Road (OMR), Chennai 119",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-70",
@@ -1370,7 +2451,9 @@
           "address": "Karapakkam, Chennai - 600097",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-71",
@@ -1383,7 +2466,9 @@
           "address": "Karappakkam, Chennai 600097",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-72",
@@ -1396,7 +2481,9 @@
           "address": "East Coast Road, Poonjeri, Chennai 603104",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-73",
@@ -1409,7 +2496,9 @@
           "address": "Trinity Campus, Nemili, Sriperumpudur Taluk, Kancheepuram District 602105",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-74",
@@ -1422,7 +2511,9 @@
           "address": "Panapakkam, Padappai,  Chennai 601301",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-75",
@@ -1435,7 +2526,9 @@
           "address": "Puduper Village, Nandambakkam Post, Kundrathur, Chennai 600069",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-76",
@@ -1448,7 +2541,9 @@
           "address": "No.34, Old Mahabalipuram Road (OMR), Chengalpattu District 603103",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-77",
@@ -1461,7 +2556,9 @@
           "address": "Melmaruvathur, Chengalpattu District 603319",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-78",
@@ -1474,7 +2571,9 @@
           "address": "Thirunavalur, Kallakkurichi District 607204",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-79",
@@ -1487,7 +2586,9 @@
           "address": "Manimangalam, Chennai 601301",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-80",
@@ -1500,7 +2601,9 @@
           "address": "Alappakkam-Mappedu Road, Chennai 600063",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-81",
@@ -1513,7 +2616,9 @@
           "address": "Gangarampalayam, Villupuram District 605108",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-82",
@@ -1526,7 +2631,9 @@
           "address": "Palayanoor Post, Maduranthagam Taluk, Chengalpattu District 603308",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-83",
@@ -1539,7 +2646,9 @@
           "address": "Kundrathur, Chennai 600069",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-84",
@@ -1552,7 +2661,9 @@
           "address": "Mailam, Villupuram District 604304",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-85",
@@ -1565,7 +2676,9 @@
           "address": "BHB Nagar, Vadakal Village, Oragadam Post, Sriperumbudur Taluk, Kanchipuram District 602118",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-86",
@@ -1578,7 +2691,9 @@
           "address": "Ponmar, Chennai 600048",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-87",
@@ -1591,7 +2706,9 @@
           "address": "Melur Village, Kallakurichi District 606201",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-88",
@@ -1604,7 +2721,9 @@
           "address": "Thirunindravur, Chennai 602024",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-89",
@@ -1617,7 +2736,9 @@
           "address": "West Tambaram, Chennai 600044",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-90",
@@ -1630,7 +2751,9 @@
           "address": "Rathnamangalam, Vandalur Post, Chennai 600048",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-91",
@@ -1643,7 +2766,9 @@
           "address": "Arasur, Villupuram District 607107",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-92",
@@ -1656,7 +2781,9 @@
           "address": "Kattankulathur, Chennai 603203",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-93",
@@ -1669,7 +2796,9 @@
           "address": "Chengalpattu-603 001.",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-94",
@@ -1682,7 +2811,9 @@
           "address": "Padappai, Chennai 601301",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-95",
@@ -1695,7 +2826,9 @@
           "address": "Vandalur, Kolappakkam, Chennai 600127",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-96",
@@ -1708,7 +2841,9 @@
           "address": "Panappakkam, Padappai, Chennai 601301",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-97",
@@ -1721,7 +2856,9 @@
           "address": "Chennai Trunk Road, Ayyankoilpattu, Villupuram District 605602",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-98",
@@ -1734,7 +2871,9 @@
           "address": "A Vasudevanur, Chinnasalem, Kallakurichi  District 606201",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-99",
@@ -1747,7 +2886,9 @@
           "address": "Vengaivasal Main Road, Gowrivakkam, Chennai 600073",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-100",
@@ -1760,7 +2901,9 @@
           "address": "Irulapalayam, Kuthampakkam Post, Kancheepuram District, Chennai 600124",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-101",
@@ -1773,7 +2916,9 @@
           "address": "GST Road, Vikravandi Village, Villupuram District 605652",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-102",
@@ -1786,7 +2931,9 @@
           "address": "Vadakuchipalayam, Kappiyampuliyur Post, Villupuram District 605601",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-103",
@@ -1799,7 +2946,9 @@
           "address": "Padappai, Kancheepuram  601301",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-104",
@@ -1812,7 +2961,9 @@
           "address": "Anaicut Post, Unnai Village, Vellore District 632101",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-105",
@@ -1825,7 +2976,9 @@
           "address": "Neelamangalam Village, Kallakurichi District 606202",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-106",
@@ -1838,7 +2991,9 @@
           "address": "Medavakkam-Mambakkam Road, Ponmar, Chennai 600127",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-107",
@@ -1851,7 +3006,9 @@
           "address": "Madurantakam (TK), Chengalpattu Dt-603311",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-108",
@@ -1864,7 +3021,9 @@
           "address": "Alampoondi Village, Gingee, Villupuram District 604151",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-109",
@@ -1877,7 +3036,9 @@
           "address": "NH-45, Main Road, Olakkur, Tindivanam Taluk, Villupuram District 604307",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-110",
@@ -1890,7 +3051,9 @@
           "address": "Loyola College Campus, Nungambakkam, Chennai 600034",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-111",
@@ -1903,7 +3066,9 @@
           "address": "Mannivakkam, West Tambaram, Chennai 600048",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-112",
@@ -1916,7 +3081,9 @@
           "address": "Kalavai, Ranipet District 632506",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-113",
@@ -1929,7 +3096,9 @@
           "address": "Vadamavandal,Thiruvannamalai District",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-114",
@@ -1942,7 +3111,9 @@
           "address": "Mathur, Thiruvannamalai District 606603",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-115",
@@ -1955,7 +3126,9 @@
           "address": "Melvisharam, Ranipet District 632509",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-116",
@@ -1968,7 +3141,9 @@
           "address": "Kaniyambadi, Vellore District 632102",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-117",
@@ -1981,7 +3156,9 @@
           "address": "Vembuliamman Koil Street, K K Nagar (West), Chennai 600078",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-118",
@@ -1994,7 +3171,9 @@
           "address": "Vaniyambadi Post, Thiruppattur District 635751",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-119",
@@ -2007,7 +3186,9 @@
           "address": "Thenkadappanthangal, Ranipet District 632513",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-120",
@@ -2020,7 +3201,9 @@
           "address": "Thiruvannamalai District 606611",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-121",
@@ -2033,7 +3216,9 @@
           "address": "Arni, Thiruvannamalai District 632317",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-122",
@@ -2046,7 +3231,9 @@
           "address": "Kilambi, Kancheepuram District 631551",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-123",
@@ -2059,7 +3246,9 @@
           "address": "Vandavasi, Thiruvannamalai District 505",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-124",
@@ -2072,7 +3261,9 @@
           "address": "Nattrampalli Post, Thiruppathur District 635854",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-125",
@@ -2085,7 +3276,9 @@
           "address": "Chithoor Main Road, Christianpet Village, Katpadi Taluk, Vellore District 632059",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-126",
@@ -2098,7 +3291,9 @@
           "address": "Bangalore-Chennai Highway, Melvisharam, Walajah Taluk, Ranipet District 632506",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-127",
@@ -2111,7 +3306,9 @@
           "address": "Modaiyur Village, Polur Taluk, Thiruvannamalai District 606902",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-128",
@@ -2124,7 +3321,9 @@
           "address": "Vinayakapuram, Adiyur Post, Tirupattur District 635601",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-129",
@@ -2137,7 +3336,9 @@
           "address": "Tiruttani High Road, Arakkonam, Ranipet District 631003",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-130",
@@ -2150,7 +3351,9 @@
           "address": "Venmani Village, Karaipoondi Post, Polur Taluk, Thiruvannamalai District 606803",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-131",
@@ -2163,7 +3366,9 @@
           "address": "302/1, Keeranallur Village, Sriperumbudhur Taluk, Kancheepuram District, Chennai 602108",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-132",
@@ -2176,7 +3381,9 @@
           "address": "Chinnasalem, Kallakkurichi District 606201",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-133",
@@ -2189,7 +3396,9 @@
           "address": "Morur Bit II Village, Salem District 637304",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-134",
@@ -2202,7 +3411,9 @@
           "address": "Karur-Madurai NH7, Manalmedu, Karur District 639003",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-135",
@@ -2215,7 +3426,9 @@
           "address": "Pollachi Road, Eachanari, Coimbatore District 641021",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-136",
@@ -2228,7 +3441,9 @@
           "address": "Errattaikaradu Paruvachi Post, Anthiyur (Via), Bhavani Taluk, Erode District 638312",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-137",
@@ -2241,7 +3456,9 @@
           "address": "Asian College Road, Kondayampalayam, Near Saravanampatti, Coimbatore District 641110",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-138",
@@ -2254,7 +3471,9 @@
           "address": "Attur Main Road, Mettupatti, Salem District 636111",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-139",
@@ -2267,7 +3486,9 @@
           "address": "Thudialur- Kovilpalay Road, Coimbatore District 641110",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-140",
@@ -2280,7 +3501,9 @@
           "address": "Kongu Engineering College Campus,Perundurai Railway Station Road, Thoppupalayam (Post), Perundurai,Erode District 638052",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-141",
@@ -2293,7 +3516,9 @@
           "address": "Sikkanampatty, (Opp. to Airport), Omalur Taluk, Salem District 636309",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-142",
@@ -2306,7 +3531,9 @@
           "address": "NH-47, Manjakkalpatti, Kuppanur Post, Sankari Taluk, Salem District 637301",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-143",
@@ -2319,7 +3546,9 @@
           "address": "Attur Main Road, Near AVS College of Arts & Science, Chinnagoundapuram, Salem District 636106",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-144",
@@ -2332,7 +3561,9 @@
           "address": "ACC Pirivu,Navakarai Post,Walayar, Coimbatore District 641105",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-145",
@@ -2345,7 +3576,9 @@
           "address": "Pichanur Post, (Near K G Chavadi), Coimbatore District 641105",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-146",
@@ -2358,7 +3591,9 @@
           "address": "Thottiapalayam, Kathankanni Post, Kangayam, Tiruppur District 641 604",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-147",
@@ -2371,7 +3606,9 @@
           "address": "Main Road, Poosaripatti, Pollachi Taluk, Coimbatore District 642205",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-148",
@@ -2384,7 +3621,9 @@
           "address": "Karvazhi Road, Thennilai Post, Karur District 639206",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-149",
@@ -2397,7 +3636,9 @@
           "address": "Ealur Pirivu, Solavampalayam Post, Coimbatore District 642109",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-150",
@@ -2410,7 +3651,9 @@
           "address": "Kalappatti Road, Civil Aerodrome Post, Coimbatore District 641014",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-151",
@@ -2423,7 +3666,9 @@
           "address": "Vellimalai Pattinam, Narasipuram Post, Thondamuture Via, Coimbatore-641109",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-152",
@@ -2436,7 +3681,9 @@
           "address": "No.451-D,Palakkad Main Road,Kuniamuthur,Coimbatore District 641008",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-153",
@@ -2449,7 +3696,9 @@
           "address": "Chettiyakkapalayam, Kinathukadavu, Coimbatore District 642120",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-154",
@@ -2462,7 +3711,9 @@
           "address": "Vellalore Post, Coimbatore District 641111",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-155",
@@ -2475,7 +3726,9 @@
           "address": "AVINASHI ROAD,NH47,KANIYUR, COIMBATORE,641659",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-156",
@@ -2488,7 +3741,9 @@
           "address": "Othakkalmandabam Post, Coimbatore District 641032",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-157",
@@ -2501,7 +3756,9 @@
           "address": "Rathinam Techzone campus, Pollachi Road, Eachanari, Coimbatore - 641021",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-158",
@@ -2514,7 +3771,9 @@
           "address": "Avinashi Road, Neelambur, Coimbatore 641062",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-159",
@@ -2527,7 +3786,9 @@
           "address": "Kangeyam.",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-160",
@@ -2540,7 +3801,9 @@
           "address": "PSGITECH CAMPUS, AVINASHI ROA, NEELAMBUR 641062",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-161",
@@ -2553,7 +3816,9 @@
           "address": "Hosur, Krishnagiri District 635109",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-162",
@@ -2566,7 +3831,9 @@
           "address": "Erumapatty Post, Namakkal District 637013",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-163",
@@ -2579,7 +3846,9 @@
           "address": "Tiruchengode, Namakkal District 637215",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-164",
@@ -2592,7 +3861,9 @@
           "address": "Thalavapalayam, Karur District 639113",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-165",
@@ -2605,7 +3876,9 @@
           "address": "Mahendhirapuri, Mallasamudram, Namakkal District 637503",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-166",
@@ -2618,7 +3891,9 @@
           "address": "Rasipuram, Namakkal District 637408",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-167",
@@ -2631,7 +3906,9 @@
           "address": "NH-7, Pachal Post, Namakkal District 637018",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-168",
@@ -2644,7 +3921,9 @@
           "address": "Paramathi Post, Namakkal District 637207",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-169",
@@ -2657,7 +3936,9 @@
           "address": "Tiruchengode, Namakkal District 637215",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-170",
@@ -2670,7 +3951,9 @@
           "address": "Komarapalayam, Namakkal District 638183",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-171",
@@ -2683,7 +3966,9 @@
           "address": "Periyanahalli Post, Dharmapuri District 635205",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-172",
@@ -2696,7 +3981,9 @@
           "address": "Tiruchengode, Namakkal District 637205",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-173",
@@ -2709,7 +3996,9 @@
           "address": "Suramangalam Post, Salem District 636005",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-174",
@@ -2722,7 +4011,9 @@
           "address": "Sathinaickenpalayam, Elayampalayam Village, Kumaramangalam, Namakkal District 637205",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-175",
@@ -2735,7 +4026,9 @@
           "address": "Near Koneripalli, Hosur, Krishnagiri District 635117",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-176",
@@ -2748,7 +4041,9 @@
           "address": "Kovai Road, Karur District 639111",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-177",
@@ -2761,7 +4056,9 @@
           "address": "Attur Road, Minnampalli, Valapady, Salem District 636106",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-178",
@@ -2774,7 +4071,9 @@
           "address": "Pachal Post, Namakkal District 637018",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-179",
@@ -2787,7 +4086,9 @@
           "address": "M Kalipatti Post, Mecheri, Salem District 634456",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-180",
@@ -2800,7 +4101,9 @@
           "address": "Pappanaickenpatti Post, Namakkal District 637003",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-181",
@@ -2813,7 +4116,9 @@
           "address": "NH-7, Pachal Post, Namakkal District 637018",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-182",
@@ -2826,7 +4131,9 @@
           "address": "NH-67, Trichy Main Road, Puliyur C F, Karur District 639114",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-183",
@@ -2839,7 +4146,9 @@
           "address": "Mahendhirapuri, Mallasamudram, Namakkal District 637503",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-184",
@@ -2852,7 +4161,9 @@
           "address": "Varahoorampatti, Tiruchengode, Namakkal District 637 214",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-185",
@@ -2865,7 +4176,9 @@
           "address": "NH-544, Salem Main Road, Pallakapalayam, Sankari West Post, Komarapalayam Taluk, Namakkal District - 637303",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-186",
@@ -2878,7 +4191,9 @@
           "address": "Emapuram Post, Namakkal District 637003",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-187",
@@ -2891,7 +4206,9 @@
           "address": "Military Road, Ammapet, Salem District 636003",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-188",
@@ -2904,7 +4221,9 @@
           "address": "Kumaramangalam, Namakkal District 637205",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-189",
@@ -2917,7 +4236,9 @@
           "address": "Poosaripatty Village, Omalur Taluk, Salem District 636305",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-190",
@@ -2930,7 +4251,9 @@
           "address": "Thoppur, Dharmapuri District 635352",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-191",
@@ -2943,7 +4266,9 @@
           "address": "Nallanahalli, Dharmapuri District 636701",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-192",
@@ -2956,7 +4281,9 @@
           "address": "Mittapalli, Balinayanapalli Post, Elathagiri, Krishnagiri District 635108",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-193",
@@ -2969,7 +4296,9 @@
           "address": "Deviayakurichi, Attur Taluk, Salem District 636112",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-194",
@@ -2982,7 +4311,9 @@
           "address": "Deviyakurichi, Attur Taluk, Salem District 636112",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-195",
@@ -2995,7 +4326,9 @@
           "address": "Komarapalayam Amani, Thattankuttai Panchayat, Namakkal District 638183",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-196",
@@ -3008,7 +4341,9 @@
           "address": "Sankari Main Road, NH-47, Periaseeragapadi, Salem District 636308",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-197",
@@ -3021,7 +4356,9 @@
           "address": "Cecilia Gardens, Chikkarampalayam Village, Coimbatore District 641104",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-198",
@@ -3034,7 +4371,9 @@
           "address": "Dharapuram Road, Avinashi Palayam, Tiruppur District 638660",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-199",
@@ -3047,7 +4386,9 @@
           "address": "Karundevan Palayam, Nanjai Uthukuli Post, Erode District 638104",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-200",
@@ -3060,7 +4401,9 @@
           "address": "KIOT Campus, Kakapalayam Post, Salem District 637504",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-201",
@@ -3073,7 +4416,9 @@
           "address": "Nathakadaiyur, Erode Road, Palayakottai Village, Kangeyam, Tiruppur District 638108",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-202",
@@ -3086,7 +4431,9 @@
           "address": "NH-47, Uthamasola Puram Post, Salem District 636010",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-203",
@@ -3099,7 +4446,9 @@
           "address": "Salem-Attur Main Road, NH-68, Mettupatty Perumapalayam, Salem District 636111",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-204",
@@ -3112,7 +4461,9 @@
           "address": "NH-544, Salem Main Road, Pallakapalayam, Sankari West Post, Komarapalayam Taluk, Namakkal District 637303",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-205",
@@ -3125,7 +4476,9 @@
           "address": "Bettathapuram, Bilichi Village, Karamadai, Coimbatore District 641104",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-206",
@@ -3138,7 +4491,9 @@
           "address": "B Pallipatti, Bommidi, Pappireddipatti Taluk, Dharmapuri District 635301",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-207",
@@ -3151,7 +4506,9 @@
           "address": "SF 361/1A, Karuvalur Road, MGC Palayam, S.S. Kulam Post, Coimbatore 641 107",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-208",
@@ -3164,7 +4521,9 @@
           "address": "Sathyamanagalam, Erode District 401",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-209",
@@ -3177,7 +4536,9 @@
           "address": "Narasipuram Post, Coimbatore District 641109",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-210",
@@ -3190,7 +4551,9 @@
           "address": "Ketti, The Nilgiris 643215",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-211",
@@ -3203,7 +4566,9 @@
           "address": "Mackinaickenpatti Post, Pollachi Taluk, Coimbatore District 642003",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-212",
@@ -3216,7 +4581,9 @@
           "address": "Thudupathi Post, Erode District 638057",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-213",
@@ -3229,7 +4596,9 @@
           "address": "Othakkalmandapam Post, Coimbatore District 641032",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-214",
@@ -3242,7 +4611,9 @@
           "address": "Othakkalmandapam, Coimbatore District 641032",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-215",
@@ -3255,7 +4626,9 @@
           "address": "Perundurai, Erode District 638052",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-216",
@@ -3268,7 +4641,9 @@
           "address": "Chinnavedampatti Post, Coimbatore District 641006",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-217",
@@ -3281,7 +4656,9 @@
           "address": "Chennimalai, Erode District 638112",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-218",
@@ -3294,7 +4671,9 @@
           "address": "Pitchandampalayam Post, Erode District 638052",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-219",
@@ -3307,7 +4686,9 @@
           "address": "Kaniyur, Coimbatore District 641659",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-220",
@@ -3320,7 +4701,9 @@
           "address": "Vijayamangalam, Tiruppur District 638056",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-221",
@@ -3333,7 +4716,9 @@
           "address": "Kuniamuthur, Coimbatore District 641008",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-222",
@@ -3346,7 +4731,9 @@
           "address": "Vattamalaipalayam, Coimbatore District 641022",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-223",
@@ -3359,7 +4746,9 @@
           "address": "Karumathampatti Post, Coimbatore District 641659",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-224",
@@ -3372,7 +4761,9 @@
           "address": "Thindal Post, Erode District 638012",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-225",
@@ -3385,7 +4776,9 @@
           "address": "Pachapalayam, Coimbatore District 641010",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-226",
@@ -3398,7 +4791,9 @@
           "address": "Kalappatti Post, Coimbatore District 641035",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-227",
@@ -3411,7 +4806,9 @@
           "address": "L&T Bye-Pass, Venkitapuram Post, Comibatore District 641062",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-228",
@@ -3424,7 +4821,9 @@
           "address": "Tamilnadu College of Engineering Campus, Karumathampatti Post, Coimbatore District 641659",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-229",
@@ -3437,7 +4836,9 @@
           "address": "Thirumalayampalayam Post, Coimbatore District 641105",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-230",
@@ -3450,7 +4851,9 @@
           "address": "Kannampalayam, Sulur, Coimbatore District 641402",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-231",
@@ -3463,7 +4866,9 @@
           "address": "Sarkar Samakulam, Coimbatore District 641107",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-232",
@@ -3476,7 +4881,9 @@
           "address": "P.K.Palayam, Ugayanur Village, Tirupur District 641 665",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-233",
@@ -3489,7 +4896,9 @@
           "address": "Seerapalayam Village, L&T By pass Road, Coimbatore District 641021",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-234",
@@ -3502,7 +4911,9 @@
           "address": "Kalapatti Road, Coimbatore District 641035",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-235",
@@ -3515,7 +4926,9 @@
           "address": "Zahirnaickenpalayam Village, Viraliyur Post, Thondamuthur Via, Coimbatore District 641109",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-236",
@@ -3528,7 +4941,9 @@
           "address": "Kondampatti Post, Vadasithur (Via), Kinathukadavu, Coimbatore District 641202",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-237",
@@ -3541,7 +4956,9 @@
           "address": "Othakkalmandapam, Coimbatore District 032",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-238",
@@ -3554,7 +4971,9 @@
           "address": "Palladam Road, Pollachi, Coimbatore District 642002",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-239",
@@ -3567,7 +4986,9 @@
           "address": "NH47, Palakkad Main Road, Navakkarai Post, Near Nandhi Temple, Coimbatore District 641105",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-240",
@@ -3580,7 +5001,9 @@
           "address": "Kurumbapalayam Village, Coimbatore District 641107",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-241",
@@ -3593,7 +5016,9 @@
           "address": "Neelambur, Avinashi Road, Coimbatore District 641062",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-242",
@@ -3606,7 +5031,9 @@
           "address": "Othakuthirai, K Mettupalayam Post, Gobichettipalayam, Erode District 638455",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-243",
@@ -3619,7 +5046,9 @@
           "address": "Mettukadai, Kathirampatti Post, Erode District 638107",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-244",
@@ -3632,7 +5061,9 @@
           "address": "NH-47, Coimbatore-Palakkad Main Road, Navakarai Post, Coimbatore District 641105",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-245",
@@ -3645,7 +5076,9 @@
           "address": "Kannampalayam, Coimbatore District 641402",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-246",
@@ -3658,7 +5091,9 @@
           "address": "KGISL Campus, Thudiyalur Road, Saravanampatti, Coimbatore District 641035",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-247",
@@ -3671,7 +5106,9 @@
           "address": "Pitchandampalayam Post, Erode District 638052",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-248",
@@ -3684,7 +5121,9 @@
           "address": "Vilankurichi Village, Coimbatore District 641035",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-249",
@@ -3697,7 +5136,9 @@
           "address": "Thirumalayampalayam Post, Coimbatore District 641105",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-250",
@@ -3710,7 +5151,9 @@
           "address": "T N Palayam, Gobi Taluk, Erode District 638506",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-251",
@@ -3723,7 +5166,9 @@
           "address": "5/635, Perar, Kothagiri Road, Mynala Post, Ooty, The Nilgiris 643002",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-252",
@@ -3736,7 +5181,9 @@
           "address": "Periyanaickenpalayam, Coimbatore District 641020",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-253",
@@ -3749,7 +5196,9 @@
           "address": "Karumathampatty, Somaur, Coimbatore District 641659",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-254",
@@ -3762,7 +5211,9 @@
           "address": "Kinathukadavu, Coimbatore District 642109",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-255",
@@ -3775,7 +5226,9 @@
           "address": "Kollupalayam Village, Arasur Panchayat, Coimbatore District 641407",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-256",
@@ -3788,7 +5241,9 @@
           "address": "Aniyapuram Post, Namakkal District 637017",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-257",
@@ -3801,7 +5256,9 @@
           "address": "Prema Ravi Nagar, Karumathampatti, Coimbatore - 641 659",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-258",
@@ -3814,7 +5271,9 @@
           "address": "Pichanur, Coimbatore. 641105.",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-259",
@@ -3827,7 +5286,9 @@
           "address": "Madukarai Post, Coimbatore - 641 105.",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-260",
@@ -3840,7 +5301,9 @@
           "address": "Appachigoundenpathy, Kumittipathi Post, Coimbatore District 641032",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-261",
@@ -3853,7 +5316,9 @@
           "address": "Kumaran Kottam Campus,  Kannampalayam, Sulur, Coimbatore District 641 402",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-262",
@@ -3866,7 +5331,9 @@
           "address": " Kumaran Kottam Campus, Trichy Road, Kannampalayam Post, Coimbatore District 641402",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-263",
@@ -3879,7 +5346,9 @@
           "address": "REC Kalvi Nagar, Viraliyur Post, Thondamuthur Via, Coimbatore District 641109",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-264",
@@ -3892,7 +5361,9 @@
           "address": "S Kumarapuram, Cuddalore District 607109",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-265",
@@ -3905,7 +5376,9 @@
           "address": "Chellangkuppam, Cuddalore District 607003",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-266",
@@ -3918,7 +5391,9 @@
           "address": "Main Road, Kilvelur, Nagapattinam District 611104",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-267",
@@ -3931,7 +5406,9 @@
           "address": "Sri Saradha Nagar, NH-45, Perambalur District 621113",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-268",
@@ -3944,7 +5421,9 @@
           "address": "Thanjavur Main Road, Darasuram, Kumbakonam, Thanjavur District 612702",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-269",
@@ -3957,7 +5436,9 @@
           "address": "Esanoor, Keelaiyur Post, Thirukkuvalai Taluk, Nagapattinam District 611103",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-270",
@@ -3970,7 +5451,9 @@
           "address": "Nerunjikorai Village, Pudhupalayam, Ariyalur Taluk, Ariyalur District 621704",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-271",
@@ -3983,7 +5466,9 @@
           "address": "V.J.P.Campus,Trichy-Chennai Highway, Navaladiyan Nagar, Siruganur, Tiruchirappalli District 621105",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-272",
@@ -3996,7 +5481,9 @@
           "address": "Kariyamanickam Road, Samayapuram, Manachanallur Taluk, Tiruchirappalli District 621112",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-273",
@@ -4009,7 +5496,9 @@
           "address": "Anthanapeetai Post, Papakoil, Nagappattinam District 611102",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-274",
@@ -4022,7 +5511,9 @@
           "address": "Manankorai Main Road, Manankorai Village, Thanjavur District 614206",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-275",
@@ -4035,7 +5526,9 @@
           "address": "Pulivalam Village, Musiri Taluk, Tiruchirappalli District 621006",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-276",
@@ -4048,7 +5541,9 @@
           "address": "Trichy-Chennai Trunk Road, Siruganur, Tiruchirappalli District 621105",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-277",
@@ -4061,7 +5556,9 @@
           "address": "No.27, Thayanur Village, Kuttapatti, Srirangam Taluk, Tiruchirappalli District 620009",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-278",
@@ -4074,7 +5571,9 @@
           "address": "Siruganur, Tiruchirappalli District 621105",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-279",
@@ -4087,7 +5586,9 @@
           "address": "Irungalur, Manachanallur Taluk, Tiruchirappalli District 621105",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-280",
@@ -4100,7 +5601,9 @@
           "address": "Mannampandal Post, Mayiladuthurai District 609305",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-281",
@@ -4113,7 +5616,9 @@
           "address": "Kovilvenni, Thiruvarur District 614403",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-282",
@@ -4126,7 +5631,9 @@
           "address": "Chennai Main Road, Kumbakonam, Thanjavur District 612501",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-283",
@@ -4139,7 +5646,9 @@
           "address": "Thuraiyur Road, Perambalur District 621212",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-284",
@@ -4152,7 +5661,9 @@
           "address": "Nagapattinam District 611002",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-285",
@@ -4165,7 +5676,9 @@
           "address": "Poolankulathupatti Post, Thiruchirappalli District 620009",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-286",
@@ -4178,7 +5691,9 @@
           "address": "Karattampatti, Pagalavadi Po,Thuraivur, Trichy-621014",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-287",
@@ -4191,7 +5706,9 @@
           "address": "Siruganur, Tiruchirappalli District 621105",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-288",
@@ -4204,7 +5721,9 @@
           "address": "Trichy-Pudukkottai Road, Tiruchirappalli District 620007",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-289",
@@ -4217,7 +5736,9 @@
           "address": "Keeranur, Pudukkottai District 622502",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-290",
@@ -4230,7 +5751,9 @@
           "address": "Karumandapam,Pirattiyur,Trichy-620 009",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-291",
@@ -4243,7 +5766,9 @@
           "address": "Pudukkottai Main Road, Tiruchirappalli District 622515",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-292",
@@ -4256,7 +5781,9 @@
           "address": "Elambalur, Perambalur District 621212",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-293",
@@ -4269,7 +5796,9 @@
           "address": "Panjappur, Tiruchirappalli District  620012",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-294",
@@ -4282,7 +5811,9 @@
           "address": "Konalai, Tiruchirappalli District 621132",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-295",
@@ -4295,7 +5826,9 @@
           "address": "Mannargudi Taluk, Thiruvarur District 614001",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-296",
@@ -4308,7 +5841,9 @@
           "address": "Raja nagar, Vaidhiyanathapuram, Tamil Nadu 606303",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-297",
@@ -4321,7 +5856,9 @@
           "address": "Elupatti Village, Rawaspatti Post, Thanjavur District 613403",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-298",
@@ -4334,7 +5871,9 @@
           "address": "Tholurpatti, Thottiyam, Tiruchirappalli District 621215",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-299",
@@ -4347,7 +5886,9 @@
           "address": "Trichy-Chennai Trunk Road, Siruganur, Tiruchirappalli District 621105",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-300",
@@ -4360,7 +5901,9 @@
           "address": "Kariyamanickam Road, Samayapuram, Manachanallur Taluk, Tiruchirappalli District 621112",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-301",
@@ -4373,7 +5916,9 @@
           "address": "Madurai Main Road, Manikandam, Tiruchirappalli District 620012",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-302",
@@ -4386,7 +5931,9 @@
           "address": "Ring Road, Nanjikottai, Thanjavur District 613006",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-303",
@@ -4399,7 +5946,9 @@
           "address": "Thayanoor Village, Thayanoor Village, Kuttappatti, Srirangam Taluk, Tiruchirappalli District 620009",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-304",
@@ -4412,7 +5961,9 @@
           "address": "Nattarmangalam Village, Kattumannarkoil, Cuddalore District 608306",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-305",
@@ -4425,7 +5976,9 @@
           "address": "Trichy-Dindigul NH Road, Poolangulathupatti, Tiruchirappalli - 620009",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-306",
@@ -4438,7 +5991,9 @@
           "address": "Kannanur, Thuraiyur, Tiruchirappalli District 621206",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-307",
@@ -4451,7 +6006,9 @@
           "address": "Mettusalai Post and Taluk, Pudukkottai District 622102",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-308",
@@ -4464,7 +6021,9 @@
           "address": "Pulavarnatham Post, Mariamman Koil (Via), Thanjavur District 613001",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-309",
@@ -4477,7 +6036,9 @@
           "address": "Anakudi Road, Kovilacheri, Kumbakonam, Thanjavur District 612503",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-310",
@@ -4490,7 +6051,9 @@
           "address": "Kaikkuruchi Village, Alangudi Taluk, Pudukkottai District 622303",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-311",
@@ -4503,7 +6066,9 @@
           "address": "Ariyur, Annavasal Road, Illupur Taluk, Pudukkottai District 622101",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-312",
@@ -4516,7 +6081,9 @@
           "address": "Thirumangalakudi, Aduthurai, Thiruvidaimaruthur, Thanjavur District 612102",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-313",
@@ -4529,7 +6096,9 @@
           "address": "Trichy Main Road,  Thathanur, Udayarpalayam, Ariyalur District 621804",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-314",
@@ -4542,7 +6111,9 @@
           "address": "Anguchettypalayam, Siruvathur Post, Panruti, Cuddalore District 607110",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-315",
@@ -4555,7 +6126,9 @@
           "address": "Punalkulam, Pudukkottai District 613303",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-316",
@@ -4568,7 +6141,9 @@
           "address": "Pilivalam Post, Pudukkottai District 622507",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-317",
@@ -4581,7 +6156,9 @@
           "address": "Pillivalam Post, Pudukkottai District 622507",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-318",
@@ -4594,7 +6171,9 @@
           "address": "Sathiyamangalam Post, Pudukkottai District 622501",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-319",
@@ -4607,7 +6186,9 @@
           "address": "Vallathirakkottai Post, Pudukkottai District 622305",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-320",
@@ -4620,7 +6201,9 @@
           "address": "Madurai Road, Lenavilakku, Pilivalam Post, Pudukkottai - 622 507",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-321",
@@ -4633,7 +6216,9 @@
           "address": "Chathirampudukulam Village, Thatchanallur, Tirunelveli District 627358",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-322",
@@ -4646,7 +6231,9 @@
           "address": "Anjugramam-Kanyakumari Main Road, Palkulam, Variyoor Post, Kanyakumari District 629401",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-323",
@@ -4659,7 +6246,9 @@
           "address": " Moododu, Anucode Post,  Marthandam, Kanyakumari District 629168",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-324",
@@ -4672,7 +6261,9 @@
           "address": "Arunthengan Vilai, Azhikal Post, Kanyakumari District 629202",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-325",
@@ -4685,7 +6276,9 @@
           "address": "Anbagam Campus, Radhapuram Road, Vallioor, Tirunelveli District 627117",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-326",
@@ -4698,7 +6291,9 @@
           "address": "Salvarpatti, Sivakasi, Virudhunagar District 626128",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-327",
@@ -4711,7 +6306,9 @@
           "address": "Karungal - Marthandam Rd, Chunda Vilai, Mullangana Vilai, Marthandam - 629165",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-328",
@@ -4724,7 +6321,9 @@
           "address": "North venganallur Village, Krishnapuram Panchayat, Rajapalayam, Virudhunagar District 626117",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-329",
@@ -4737,7 +6336,9 @@
           "address": "V.P.M.NAGAR, VPM Nagar,Krishnakoil,Srivilliputhur,Virudhunagar 626190",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-330",
@@ -4750,7 +6351,9 @@
           "address": "Kamarajar Educational Road, Amathur Village, Sivakasi, Virudhunagar District 626005",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-331",
@@ -4763,7 +6366,9 @@
           "address": "Maruthamparai, Kanyakumari District 629101",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-332",
@@ -4776,7 +6381,9 @@
           "address": "Arasoor Village, Idaichivilai Post, Santhakulam Taluk, Thoothukudi District 628656",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-333",
@@ -4789,7 +6396,9 @@
           "address": "Kariapatti Post, Virudhunagar District 626115",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-334",
@@ -4802,7 +6411,9 @@
           "address": "Ammandivilai & Post, Kanyakumari District - 629204",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-335",
@@ -4815,7 +6426,9 @@
           "address": "Attoor Puliyamoodu Junction, Thiruvattar Post, Kanyakumari District 629177",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-336",
@@ -4828,7 +6441,9 @@
           "address": "Malankara Hills, Elavuvillai, Marthandam, Kanyakumari District 629171",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-337",
@@ -4841,7 +6456,9 @@
           "address": "Mogals Garden, Thovalai Village, Aralvaimozhi Town Panchayat, Thovalai, Kanyakumari District 629304",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-338",
@@ -4854,7 +6471,9 @@
           "address": "Chandy Nagar, Mullakkadu, Thoothukudi District 628005",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-339",
@@ -4867,7 +6486,9 @@
           "address": "Edavilagam, Nattalam, Marthandam, Kanyakumari-629165",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-340",
@@ -4880,7 +6501,9 @@
           "address": "Vagaikulam, Thoothukudi District 628102",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-341",
@@ -4893,7 +6516,9 @@
           "address": "Vagaikulam, Sri Mulakarai, Srivaikuntam,  Thoothukudi District 628851",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-342",
@@ -4906,7 +6531,9 @@
           "address": "Manivilla Palulai Panchayat, Vilavancode, Kanyakumari District 629171",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-343",
@@ -4919,7 +6546,9 @@
           "address": "Ayyaneri, Kovilpatti, Thoothukudi District 628502",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-344",
@@ -4932,7 +6561,9 @@
           "address": "Satyam Nagar,Aralvoimozhi,Kanyakumari- 629301",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-345",
@@ -4945,7 +6576,9 @@
           "address": "Thanka Gardens, Manavilai, Vellichanthai, Nagercoil, Kanyakumari District 629203",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-346",
@@ -4958,7 +6591,9 @@
           "address": "Aralvaimozhi Village, Thovalai, Kanyakumari District 629301",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-347",
@@ -4971,7 +6606,9 @@
           "address": "Melathediyoor, Tirunelveli-627 152",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-348",
@@ -4984,7 +6621,9 @@
           "address": "Thovalai, Kanyakumari District 629302",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-349",
@@ -4997,7 +6636,9 @@
           "address": "Levingipuram, Tirunelveli District 627114",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-350",
@@ -5010,7 +6651,9 @@
           "address": "Tiruchendur, Thoothukudi District 628215",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-351",
@@ -5023,7 +6666,9 @@
           "address": "Vannarpettai, Tirunelveli District 627003",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-352",
@@ -5036,7 +6681,9 @@
           "address": "Aralvaimozhi, Kanyakumari District - 629301",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-353",
@@ -5049,7 +6696,9 @@
           "address": "Nazareth, Thoothukudi District 628617",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-354",
@@ -5062,7 +6711,9 @@
           "address": "Virudhunagar District 626001",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-355",
@@ -5075,7 +6726,9 @@
           "address": " Sivakasi, Virudhunagar District 626005",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-356",
@@ -5088,7 +6741,9 @@
           "address": "Maruthakulam Post, Tirunelveli District 627151",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-357",
@@ -5101,7 +6756,9 @@
           "address": "Kovilpatti, Thoothukudi District 628503",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-358",
@@ -5114,7 +6771,9 @@
           "address": "Melathediyoor, Tirunelveli-627 152",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-359",
@@ -5127,7 +6786,9 @@
           "address": "Appayanaickenpatti, Sevalpatty, Virudhunagar District 626140",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-360",
@@ -5140,7 +6801,9 @@
           "address": "Vallioor Post, Tirunelveli District 627117",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-361",
@@ -5153,7 +6816,9 @@
           "address": "Puliangudi Post, Tenkasi District 627855",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-362",
@@ -5166,7 +6831,9 @@
           "address": "Alangulam, Tenkasi District 627808",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-363",
@@ -5179,7 +6846,9 @@
           "address": "Cheranmahadevi, Tirunelveli District 627414",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-364",
@@ -5192,7 +6861,9 @@
           "address": "Aruppukkottai Taluk, Virudhunagar District 626134",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-365",
@@ -5205,7 +6876,9 @@
           "address": "Chunkankadai, Nagercoil, Kanyakumari District-629003",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-366",
@@ -5218,7 +6891,9 @@
           "address": "Sawyerpuram, Thoothukudi District  628251",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-367",
@@ -5231,7 +6906,9 @@
           "address": "Thoothukudi Highway (NH7/A), Thoothukudi District 628851",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-368",
@@ -5244,7 +6921,9 @@
           "address": "Manjalumoodu, Kanyakumari District 629151",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-369",
@@ -5257,7 +6936,9 @@
           "address": "Ammandivilai Post, Kanyakumari District 629204",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-370",
@@ -5270,7 +6951,9 @@
           "address": "Krishnakoil,Virudhunagar-626 190",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-371",
@@ -5283,7 +6966,9 @@
           "address": "Seethaparpanallur, Tirunelveli District 627012",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-372",
@@ -5296,7 +6981,9 @@
           "address": "Vettornimadam Post, Nagercoil, Kanyakumari District 629003",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-373",
@@ -5309,7 +6996,9 @@
           "address": "Chunkankadai Post, Nagercoil, Kanyakumari District 629807",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-374",
@@ -5322,7 +7011,9 @@
           "address": "Kumarapuram, Thoppur Post, Kanyakumari District 629402",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-375",
@@ -5335,7 +7026,9 @@
           "address": "Melathediyoor, Tirunelveli District 627152",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-376",
@@ -5348,7 +7041,9 @@
           "address": "Karungal, Kanyakumari District 629157",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-377",
@@ -5361,7 +7056,9 @@
           "address": "Loyola Nagar,  P B No.2, Thovalai, Kanyakumari District 629302",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-378",
@@ -5374,7 +7071,9 @@
           "address": "College Road, Ayakudy, Tenkasi Taluk, Tenkasi District 627852",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-379",
@@ -5387,7 +7086,9 @@
           "address": "Sivakasi Main Road, P Kumaralinapuram, Virudhunagar District 626005",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-380",
@@ -5400,7 +7101,9 @@
           "address": "Vasudevanallur, Tenkasi District",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-381",
@@ -5413,7 +7116,9 @@
           "address": "Pothaiyadi Salai, Pottalkulam, Azhagappapuram, Kanyakumari District 629401",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-382",
@@ -5426,7 +7131,9 @@
           "address": "Amaravathi Village, Amaravathi Pudur Post, Karaikudi, Sivagangai District 630301",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-383",
@@ -5439,7 +7146,9 @@
           "address": "Kuttathupatti Village, Sindalaigundu Post, Dindigul District 624002",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-384",
@@ -5452,7 +7161,9 @@
           "address": "Therkutheru, Melur Taluk, Madurai District 625122",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-385",
@@ -5465,7 +7176,9 @@
           "address": "KIT & KIM Technical Campus, Keeranipatti, Thalakkuvur, Karaikudi, Sivagangai District 630307",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-386",
@@ -5478,7 +7191,9 @@
           "address": "First Street, Mangayarkarasi Nagar, Paravai, Madurai District 625402",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-387",
@@ -5491,7 +7206,9 @@
           "address": "Dindigul-Theni Main Road (Near Vakkampatti), Dindigul District 624303",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-388",
@@ -5504,7 +7221,9 @@
           "address": "NH45,Trichy Road,Morepatty (Post),Vadamadurai (Via),Dindigul District 624 802",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-389",
@@ -5517,7 +7236,9 @@
           "address": "Oddanchatram, Dindigul District 624619",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-390",
@@ -5530,7 +7251,9 @@
           "address": "Natham, Dindigul District 624401",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-391",
@@ -5543,7 +7266,9 @@
           "address": "Pottapalayam Village, Manamadurai Taluk, Sivagangai District 630611",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-392",
@@ -5556,7 +7281,9 @@
           "address": "PVP Nagar, K.Singrakottai, Dindigul-624708",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-393",
@@ -5569,7 +7296,9 @@
           "address": "N Paraipatti Post, Vedasandur Taluk, Dindigul District 624005",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-394",
@@ -5582,7 +7311,9 @@
           "address": "Vadupudupatti, Annanji Post, Theni District 625531",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-395",
@@ -5595,7 +7326,9 @@
           "address": "Thimmarasanaickanoor, Aundipatti, Theni District 625536",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-396",
@@ -5608,7 +7341,9 @@
           "address": "Pottapalayam, Sivagangai District 630611",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-397",
@@ -5621,7 +7356,9 @@
           "address": "Kilakarai, Ramanathapuram District 623806",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-398",
@@ -5634,7 +7371,9 @@
           "address": "Dindigul District 624622",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-399",
@@ -5647,7 +7386,9 @@
           "address": "Thanapandiyan Nagar, Austinpatty Post, Madurai District 625008",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-400",
@@ -5660,7 +7401,9 @@
           "address": "Thirumansolai Post, Sivagangai District 630 561",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-401",
@@ -5673,7 +7416,9 @@
           "address": "N Paraipatti Post, Dindigul District 624005",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-402",
@@ -5686,7 +7431,9 @@
           "address": "Veerapanjan, Madurai District 625020",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-403",
@@ -5699,7 +7446,9 @@
           "address": "Kidaripatty Post, Madurai District 625301",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-404",
@@ -5712,7 +7461,9 @@
           "address": "Kalayarkoil, Sivagangai District 630551",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-405",
@@ -5725,7 +7476,9 @@
           "address": "Achuthan Vayal Post, Ramanathapuram District 623502",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-406",
@@ -5738,7 +7491,9 @@
           "address": "Melakavanur Post, Paramakudi, Ramanathapuram District 623706",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-407",
@@ -5751,7 +7506,9 @@
           "address": "Thamaraipady, T N Paraipatti Pirivu, Dindigul District 624005",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-408",
@@ -5764,7 +7521,9 @@
           "address": "Sengottai Village, Sivagangai Main Road, Madurai District 625020",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-409",
@@ -5777,7 +7536,9 @@
           "address": "Kodikulam, 1 Bit Village, Madurai-Chennai Highway, Madurai District 625104",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-410",
@@ -5790,7 +7551,9 @@
           "address": "Velammal Nagar, Viraganoor, Madurai - 625009",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-411",
@@ -5803,7 +7566,9 @@
           "address": "Theni Main Road, Koduvillarpatti Post, Theni District 625534",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-412",
@@ -5816,7 +7581,9 @@
           "address": "Kidaripatti Post, Alagarkoil (Via), Melur Taluk, Madurai District 625301",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-413",
@@ -5829,7 +7596,9 @@
           "address": "Tambaram Road, Vellarai (Chennai Metropolitan Area Sriperumbudur Taluk, 602105",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-414",
@@ -5842,7 +7611,9 @@
           "address": "Bharathiar Street Prashanthi Nagar, Chromepet ,Chennai 60004",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-415",
@@ -5855,7 +7626,9 @@
           "address": "Perundurai, Chennimalai Road - Ingur, Erode DT - 638052",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-416",
@@ -5868,7 +7641,9 @@
           "address": "Trichy - Chennai Trunk Road, (Near No.1 Tollgate), Koothur, Trichy -621216",
           "zip": null,
           "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         },
         {
           "id": "tn_private-417",
@@ -5881,78 +7656,9 @@
           "address": "Old Karur Road, Dindigul - 624 005",
           "zip": null,
           "official_website": null,
-          "status": "active"
-        }
-      ]
-    },
-    {
-      "section_id": "tn_university",
-      "section_label": "TN University",
-      "institutions": [
-        {
-          "id": "tn_university-1",
-          "external_code": "1",
-          "name": "University Departments of Anna University, Chennai CEG Campus",
-          "source": "State Govt",
-          "funding": "State",
-          "city": "Chennai",
-          "state": "Tamil Nadu",
-          "address": "Sardar Patel Road, Guindy, Chennai 600 025",
-          "zip": null,
-          "official_website": null,
-          "status": "active"
-        },
-        {
-          "id": "tn_university-2",
-          "external_code": "2",
-          "name": "University Departments of Anna University, Chennai ACT Campus",
-          "source": "State Govt",
-          "funding": "State",
-          "city": "Chennai",
-          "state": "Tamil Nadu",
-          "address": "Sardar Patel Road, Guindy, Chennai 600 025",
-          "zip": null,
-          "official_website": null,
-          "status": "active"
-        },
-        {
-          "id": "tn_university-3",
-          "external_code": "3",
-          "name": "School of Architecture and Planning",
-          "source": "State Govt",
-          "funding": "State",
-          "city": "Chennai",
-          "state": "Tamil Nadu",
-          "address": "Anna University,Chennai 600025",
-          "zip": null,
-          "official_website": null,
-          "status": "active"
-        },
-        {
-          "id": "tn_university-4",
-          "external_code": "4",
-          "name": "University Departments of Anna University, Chennai MIT Campus",
-          "source": "State Govt",
-          "funding": "State",
-          "city": "Chennai",
-          "state": "Tamil Nadu",
-          "address": "Chrompet, Tambaram Taluk, Chengalpattu District 600 044",
-          "zip": null,
-          "official_website": null,
-          "status": "active"
-        },
-        {
-          "id": "tn_university-5",
-          "external_code": "5",
-          "name": "Annamalai University Faculty of Engineering and Technology",
-          "source": "State Govt",
-          "funding": "State",
-          "city": "Cuddalore",
-          "state": "Tamil Nadu",
-          "address": "Annamalai nagar,Cuddalore",
-          "zip": null,
-          "official_website": null,
-          "status": "active"
+          "status": "active",
+          "category": "tn_private",
+          "sub_category": null
         }
       ]
     }
