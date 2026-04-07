@@ -98,21 +98,45 @@ export function normalizeEngInstitutionsData(raw) {
       const disciplineName = block.discipline_name || block.discipline_id || "Engineering";
       const sections = Array.isArray(block.college_type_sections) ? block.college_type_sections : [];
       for (const section of sections) {
+        // Support both formats:
+        // 1) Legacy: { section_id, section_label, institutions: [] }
+        // 2) Nested: { id, label, institutions?: [], children?: [{ id, label, institutions: [] }] }
+        const sectionKey = section.section_id ?? section.id;
         const collegeType =
-          SECTION_ID_TO_COLLEGE_TYPE[section.section_id] ||
-          (section.section_id && section.section_id.includes("nit") ? "NIT" : null) ||
-          (section.section_id && section.section_id.includes("central") ? "Central University" : null) ||
+          (sectionKey && SECTION_ID_TO_COLLEGE_TYPE[sectionKey]) ||
+          (sectionKey && String(sectionKey).includes("nit") ? "NIT" : null) ||
+          (sectionKey && String(sectionKey).includes("central") ? "Central University" : null) ||
           "Other";
-        const groupLabel = section.section_label || section.sectionName || null;
-        const list = Array.isArray(section.institutions) ? section.institutions : [];
-        for (const inst of list) {
-          if (!inst || !inst.id) continue;
+
+        const topLabel = section.section_label || section.sectionName || section.label || null;
+
+        const isPlaceholderName = (name, label) => {
+          if (!name || !label) return false;
+          const norm = (v) => String(v).toLowerCase().replace(/[^a-z0-9]/g, "");
+          const n = norm(name);
+          const l = norm(label);
+          if (!n || !l) return false;
+          // Treat alias variants as equivalent placeholders
+          const alias = new Map([
+            ["govtaided", "governmentaided"],
+            ["governmentaided", "governmentaided"],
+          ]);
+          const nn = alias.get(n) || n;
+          const ll = alias.get(l) || l;
+          return nn === ll;
+        };
+
+        const pushInstitution = (inst, label) => {
+          if (!inst || !inst.id) return;
+          const displayName = isPlaceholderName(inst.name, label)
+            ? [label, inst.external_code || inst.city || inst.id].filter(Boolean).join(" - ")
+            : (inst.name ?? "");
           out.push({
             id: inst.id,
-            name: inst.name ?? "",
+            name: displayName,
             discipline: [disciplineName],
             college_type: collegeType,
-            group_label: groupLabel,
+            group_label: label ?? null,
             funding: inst.funding ?? null,
             city: inst.city ?? null,
             state: inst.state ?? null,
@@ -122,6 +146,26 @@ export function normalizeEngInstitutionsData(raw) {
             source: inst.source ?? "Other",
             status: inst.status ?? "active",
           });
+        };
+
+        // Nested children (e.g. TN Government -> University/Constituent/Govt Colleges/...)
+        if (Array.isArray(section.children) && section.children.length > 0) {
+          for (const child of section.children) {
+            const childLabel = child?.label || child?.section_label || child?.sectionName || null;
+            const list = Array.isArray(child?.institutions) ? child.institutions : [];
+            for (const inst of list) {
+              const instLabel = inst?.sub_category ?? childLabel ?? topLabel;
+              pushInstitution(inst, instLabel);
+            }
+          }
+          continue;
+        }
+
+        // Flat list at section level
+        const list = Array.isArray(section.institutions) ? section.institutions : [];
+        for (const inst of list) {
+          const instLabel = inst?.sub_category ?? topLabel;
+          pushInstitution(inst, instLabel);
         }
       }
     }
@@ -222,12 +266,32 @@ export function groupByDisciplineAndCollegeType(institutions, discipline) {
  * split into subgroups for clearer UI. Single label or no labels → flat list (subgroups null).
  */
 function engineeringSubgroupsForBucket(institutions) {
-  const labels = [...new Set((institutions || []).map((i) => i.group_label).filter(Boolean))];
+  const normalizeSubgroupLabel = (label) => {
+    if (!label) return label;
+    const s = String(label).trim();
+    if (/^govt\s+colleges?$/i.test(s)) return "Government Colleges";
+    return s;
+  };
+  const TN_GOVT_SUBGROUP_ORDER = [
+    "University",
+    "Constituent",
+    "Government Colleges",
+    "Government Aided",
+    "Central",
+  ];
+  const subgroupRank = new Map(TN_GOVT_SUBGROUP_ORDER.map((name, idx) => [name, idx]));
+
+  const labels = [...new Set((institutions || []).map((i) => normalizeSubgroupLabel(i.group_label)).filter(Boolean))];
   if (labels.length <= 1) return null;
-  labels.sort((a, b) => String(a).localeCompare(String(b)));
+  labels.sort((a, b) => {
+    const rankA = subgroupRank.has(a) ? subgroupRank.get(a) : Number.MAX_SAFE_INTEGER;
+    const rankB = subgroupRank.has(b) ? subgroupRank.get(b) : Number.MAX_SAFE_INTEGER;
+    if (rankA !== rankB) return rankA - rankB;
+    return String(a).localeCompare(String(b));
+  });
   return labels.map((groupLabel) => ({
     groupLabel,
-    institutions: institutions.filter((i) => i.group_label === groupLabel),
+    institutions: institutions.filter((i) => normalizeSubgroupLabel(i.group_label) === groupLabel),
   }));
 }
 

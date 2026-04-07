@@ -20,6 +20,7 @@ const ALLOWED_SOURCES = new Set([
   "UGC",
   "IIT Council",
   "Other",
+  "Central Govt",
   "State Govt",
   "Private Trust",
 ]);

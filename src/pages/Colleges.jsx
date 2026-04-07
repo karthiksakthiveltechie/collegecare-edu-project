@@ -32,6 +32,12 @@ const labelToSlug = {
   'Agriculture': 'agriculture',
 }
 
+const formatDisciplineName = (name) =>
+  name === 'Engineering' ? 'Engineering & Technology' : name
+
+const formatDisciplineList = (list = []) =>
+  (Array.isArray(list) ? list : []).map(formatDisciplineName).join(', ')
+
 const Colleges = () => {
   const { category, collegeSlug } = useParams()
   const navigate = useNavigate()
@@ -109,7 +115,7 @@ const Colleges = () => {
               </div>
             </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-light-text dark:text-gray-300">
-              <div><span className="text-light-textMuted dark:text-gray-500">Discipline</span><br />{(institution.discipline || []).join(', ')}</div>
+              <div><span className="text-light-textMuted dark:text-gray-500">Discipline</span><br />{formatDisciplineList(institution.discipline)}</div>
               <div><span className="text-light-textMuted dark:text-gray-500">Source</span><br />{institution.source}</div>
             </div>
             {institution.official_website && (
@@ -236,7 +242,7 @@ const Colleges = () => {
                 </div>
               </div>
               <div className="flex items-center justify-between pt-4 border-t border-dark-border mt-auto">
-                <span className="text-light-textCourse dark:text-gray-500 text-sm">{(inst.discipline || []).join(', ')}</span>
+                <span className="text-light-textCourse dark:text-gray-500 text-sm">{formatDisciplineList(inst.discipline)}</span>
                 <Link
                   to={`/colleges/${selectedCategory === 'all' ? categorySlugForInst(inst) : selectedCategory}/${inst.id}`}
                   className="text-cyberpunk-cyan hover:text-cyberpunk-pink transition-colors text-sm font-medium"
