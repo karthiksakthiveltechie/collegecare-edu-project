@@ -12,7 +12,6 @@ import rawLawData from "./Law-institutions.json";
 import {
   normalizeEngInstitutionsData,
   normalizeAlliedHealthcareData,
-  normalizeAgricultureData,
   validateInstitutionsSchema,
   groupEngineering,
   groupBySectionLabel,
@@ -24,7 +23,7 @@ const institutionsData = [
   ...normalizeEngInstitutionsData(rawMedicalData),
   ...normalizeAlliedHealthcareData(rawAlliedHCData),
   ...normalizeEngInstitutionsData(rawArtsScienceData),
-  ...normalizeAgricultureData(rawAgricultureData),
+  ...normalizeEngInstitutionsData(rawAgricultureData),
   ...normalizeEngInstitutionsData(rawLawData),
 ];
 
@@ -65,19 +64,19 @@ export function getCategoryMenuFromInstitutions(data = institutions, opts = {}) 
     engineering: "Engineering",
     medical: "Medical",
     "allied-healthcare": "Allied Healthcare",
+    agriculture: "Agriculture",
     "arts-science": "Arts & Science",
     law: "Law",
     pharma: "Pharma",
-    agriculture: "Agriculture",
   };
   const slugToLabel = {
     engineering: "Engineering & Technology",
     medical: "Medical",
     "allied-healthcare": "Allied Healthcare",
+    agriculture: "Agriculture",
     "arts-science": "Arts & Science",
     law: "Law",
     pharma: "Pharma",
-    agriculture: "Agriculture",
   };
 
   const result = [];
@@ -143,10 +142,10 @@ export function getDisciplineForFilter(categorySlug) {
     engineering: "Engineering",
     medical: "Medical",
     "allied-healthcare": "Allied Healthcare",
+    agriculture: "Agriculture",
     "arts-science": "Arts & Science",
     law: "Law",
     pharma: "Pharma",
-    agriculture: "Agriculture",
   };
   return disciplineSlugMap[categorySlug] ?? categorySlug;
 }

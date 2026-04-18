@@ -79,7 +79,25 @@ const SECTION_ID_TO_COLLEGE_TYPE = {
   "medical-private": "Other",
   arts_science_state_list: "State University",
   arts_science_private_list: "Other",
+  /** Agriculture (Agriculture_institutions.json) — TN lists */
+  agriculture_tn_govt_college_list: "TN Government",
+  agriculture_tn_private_college_list: "TN Private",
 };
+
+/** Menu subgroup labels for section_ids (overrides raw section_label in JSON). */
+const SECTION_ID_TO_MENU_GROUP_LABEL = {
+  agriculture_tn_govt_college_list: "TN Government",
+  agriculture_tn_private_college_list: "TN Private",
+};
+
+/** Map JSON funding strings to canonical schema values. */
+function normalizeFundingValue(value) {
+  if (value == null || value === "") return null;
+  const s = String(value).toLowerCase().trim();
+  if (s === "government") return "State";
+  if (s === "private") return "Private";
+  return value;
+}
 
 /**
  * Normalize Eng-institutions.json: accept either flat array or section-based format.
@@ -139,7 +157,7 @@ export function normalizeEngInstitutionsData(raw) {
             discipline: [disciplineName],
             college_type: collegeType,
             group_label: label ?? null,
-            funding: inst.funding ?? null,
+            funding: normalizeFundingValue(inst.funding),
             city: inst.city ?? null,
             state: inst.state ?? null,
             address: inst.address ?? null,
@@ -156,7 +174,11 @@ export function normalizeEngInstitutionsData(raw) {
             const childLabel = child?.label || child?.section_label || child?.sectionName || null;
             const list = Array.isArray(child?.institutions) ? child.institutions : [];
             for (const inst of list) {
-              const instLabel = inst?.sub_category ?? childLabel ?? topLabel;
+              const instLabel =
+                (sectionKey && SECTION_ID_TO_MENU_GROUP_LABEL[sectionKey]) ??
+                inst?.sub_category ??
+                childLabel ??
+                topLabel;
               pushInstitution(inst, instLabel);
             }
           }
@@ -166,7 +188,10 @@ export function normalizeEngInstitutionsData(raw) {
         // Flat list at section level
         const list = Array.isArray(section.institutions) ? section.institutions : [];
         for (const inst of list) {
-          const instLabel = inst?.sub_category ?? topLabel;
+          const instLabel =
+            (sectionKey && SECTION_ID_TO_MENU_GROUP_LABEL[sectionKey]) ??
+            inst?.sub_category ??
+            topLabel;
           pushInstitution(inst, instLabel);
         }
       }
