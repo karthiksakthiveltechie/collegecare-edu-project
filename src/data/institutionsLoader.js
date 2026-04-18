@@ -5,11 +5,13 @@
  */
 import rawEngData from "./Eng-institutions.json";
 import rawMedicalData from "./Medical_institutions.json";
+import rawAlliedHCData from "./AlliedHC-institutions.json";
 import rawArtsScienceData from "./Arts-Science-institutions.json";
 import rawAgricultureData from "./Agriculture_institutions.json";
 import rawLawData from "./Law-institutions.json";
 import {
   normalizeEngInstitutionsData,
+  normalizeAlliedHealthcareData,
   normalizeAgricultureData,
   validateInstitutionsSchema,
   groupEngineering,
@@ -20,6 +22,7 @@ import {
 const institutionsData = [
   ...normalizeEngInstitutionsData(rawEngData),
   ...normalizeEngInstitutionsData(rawMedicalData),
+  ...normalizeAlliedHealthcareData(rawAlliedHCData),
   ...normalizeEngInstitutionsData(rawArtsScienceData),
   ...normalizeAgricultureData(rawAgricultureData),
   ...normalizeEngInstitutionsData(rawLawData),
@@ -61,6 +64,7 @@ export function getCategoryMenuFromInstitutions(data = institutions, opts = {}) 
   const disciplineSlugMap = {
     engineering: "Engineering",
     medical: "Medical",
+    "allied-healthcare": "Allied Healthcare",
     "arts-science": "Arts & Science",
     law: "Law",
     pharma: "Pharma",
@@ -69,6 +73,7 @@ export function getCategoryMenuFromInstitutions(data = institutions, opts = {}) 
   const slugToLabel = {
     engineering: "Engineering & Technology",
     medical: "Medical",
+    "allied-healthcare": "Allied Healthcare",
     "arts-science": "Arts & Science",
     law: "Law",
     pharma: "Pharma",
@@ -92,7 +97,13 @@ export function getCategoryMenuFromInstitutions(data = institutions, opts = {}) 
           colleges: g.institutions.map((inst) => ({ name: inst.name, slug: inst.id })),
         })),
       });
-    } else if (slug === "medical" || slug === "arts-science" || slug === "agriculture" || slug === "law") {
+    } else if (
+      slug === "medical" ||
+      slug === "allied-healthcare" ||
+      slug === "arts-science" ||
+      slug === "agriculture" ||
+      slug === "law"
+    ) {
       const { groups } = groupBySectionLabel(data || [], discipline);
       if (groups.length > 0) {
         result.push({
@@ -131,6 +142,7 @@ export function getDisciplineForFilter(categorySlug) {
   const disciplineSlugMap = {
     engineering: "Engineering",
     medical: "Medical",
+    "allied-healthcare": "Allied Healthcare",
     "arts-science": "Arts & Science",
     law: "Law",
     pharma: "Pharma",

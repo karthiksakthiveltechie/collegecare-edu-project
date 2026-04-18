@@ -16,6 +16,7 @@ import { getInstitutionById } from '../data/institutionUtils'
 const slugToLabel = {
   engineering: 'Engineering & Technology',
   medical: 'Medical',
+  'allied-healthcare': 'Allied Healthcare',
   'arts-science': 'Arts & Science',
   law: 'Law',
   pharma: 'Pharma',
@@ -26,6 +27,7 @@ const labelToSlug = {
   'Engineering': 'engineering',
   'Engineering & Technology': 'engineering',
   'Medical': 'medical',
+  'Allied Healthcare': 'allied-healthcare',
   'Arts & Science': 'arts-science',
   'Law': 'law',
   'Pharma': 'pharma',

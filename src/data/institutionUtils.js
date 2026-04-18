@@ -72,6 +72,8 @@ const SECTION_ID_TO_COLLEGE_TYPE = {
   /** Tamil Nadu engineering lists (Eng-institutions.json) */
   tn_govt: "TN Government",
   tn_private: "TN Private",
+  /** Allied Healthcare (AlliedHC-institutions.json) — private section key */
+  private_colleges: "TN Private",
   tn_university: "TN State University",
   "medical-state": "State University",
   "medical-private": "Other",
@@ -173,6 +175,103 @@ export function normalizeEngInstitutionsData(raw) {
   }
 
   return raw;
+}
+
+/**
+ * AlliedHC-institutions.json: [{ id: "allied_healthcare", label, college_type_sections }].
+ * Flattens TN Government (nested children) and TN Private lists; prefixes ids with "alliedhc-" to avoid collisions with other JSON files.
+ *
+ * @param {unknown} raw
+ * @returns {Array<Institution>}
+ */
+export function normalizeAlliedHealthcareData(raw) {
+  if (!Array.isArray(raw) || raw.length === 0) return [];
+  const block = raw[0];
+  if (!block || typeof block !== "object") return [];
+  if (!Array.isArray(block.college_type_sections)) return [];
+  if (!(block.id === "allied_healthcare" || block.label === "Allied Healthcare")) return [];
+
+  const disciplineName = "Allied Healthcare";
+  const out = [];
+
+  const alliedMenuGroup = (sectionKey) => {
+    if (sectionKey === "tn_govt") return "TN Government";
+    if (sectionKey === "private_colleges" || sectionKey === "tn_private") return "TN Private";
+    return null;
+  };
+
+  const sections = block.college_type_sections;
+
+  for (const section of sections) {
+    const sectionKey = section.section_id ?? section.id;
+    const collegeType =
+      (sectionKey && SECTION_ID_TO_COLLEGE_TYPE[sectionKey]) ||
+      (sectionKey === "private_colleges" ? "TN Private" : null) ||
+      "Other";
+
+    const topLabel = section.section_label || section.sectionName || section.label || null;
+
+    const isPlaceholderName = (name, label) => {
+      if (!name || !label) return false;
+      const norm = (v) => String(v).toLowerCase().replace(/[^a-z0-9]/g, "");
+      const n = norm(name);
+      const l = norm(label);
+      if (!n || !l) return false;
+      const alias = new Map([
+        ["govtaided", "governmentaided"],
+        ["governmentaided", "governmentaided"],
+      ]);
+      const nn = alias.get(n) || n;
+      const ll = alias.get(l) || l;
+      return nn === ll;
+    };
+
+    const pushInstitution = (inst, parentSectionKey) => {
+      if (!inst || !inst.id) return;
+      const rawId = String(inst.id);
+      const id = rawId.startsWith("alliedhc-") ? rawId : `alliedhc-${rawId}`;
+      const forcedGroup = alliedMenuGroup(parentSectionKey);
+      const fallbackLabel = inst?.sub_category ?? topLabel;
+      const groupLabel = forcedGroup ?? fallbackLabel;
+
+      const displayName = isPlaceholderName(inst.name, groupLabel)
+        ? [groupLabel, inst.external_code || inst.city || id].filter(Boolean).join(" - ")
+        : (inst.name ?? "");
+
+      out.push({
+        id,
+        name: displayName,
+        discipline: [disciplineName],
+        college_type: collegeType,
+        group_label: groupLabel,
+        funding: inst.funding ?? null,
+        city: inst.city ?? null,
+        state: inst.state ?? null,
+        address: inst.address ?? null,
+        zip: inst.zip ?? null,
+        official_website: inst.official_website ?? null,
+        source: inst.source ?? "Other",
+        status: inst.status ?? "active",
+      });
+    };
+
+    if (Array.isArray(section.children) && section.children.length > 0) {
+      for (const child of section.children) {
+        const list = Array.isArray(child?.institutions) ? child.institutions : [];
+        for (const inst of list) {
+          pushInstitution(inst, sectionKey);
+        }
+      }
+      continue;
+    }
+
+    const list = Array.isArray(section.institutions) ? section.institutions : [];
+    for (const inst of list) {
+      pushInstitution(inst, sectionKey);
+    }
+  }
+
+  return out;
 }
 
 /**
@@ -352,6 +451,7 @@ export const DISCIPLINE_TO_CATEGORY_SLUG = {
   Engineering: "engineering",
   "Engineering & Technology": "engineering",
   Medical: "medical",
+  "Allied Healthcare": "allied-healthcare",
   "Arts & Science": "arts-science",
   Law: "law",
   Pharma: "pharma",

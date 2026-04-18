@@ -21,9 +21,9 @@ const Header = () => {
       subItems: [
         { label: 'Engineering & Technology', path: '/colleges/engineering' },
         { label: 'Medical', path: '/colleges/medical' },
+        { label: 'Allied Healthcare', path: '/colleges/allied-healthcare' },
         { label: 'Arts and Science', path: '/colleges/arts-science' },
         { label: 'Agriculture', path: '/colleges/agriculture' },
-        { label: 'Allied Healthcare', path: '/colleges/allied-healthcare' },
         { label: 'Law', path: '/colleges/law' },
         { label: "Master's Degree", path: '/colleges/masters' },
       ],
