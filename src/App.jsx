@@ -24,6 +24,7 @@ import Login from './pages/Login'
 import Signup from './pages/Signup'
 import NotFound from './pages/NotFound'
 import SearchResults from './pages/SearchResults'
+import Courses from './pages/Courses'
 
 function App({ onMount }) {
   useEffect(() => {
@@ -55,6 +56,9 @@ function App({ onMount }) {
                 <Route path="/colleges/engineering" element={<Engineering />} />
                 <Route path="/colleges/:category" element={<Colleges />} />
                 <Route path="/colleges/:category/:collegeSlug" element={<Colleges />} />
+
+                <Route path="/courses" element={<Courses />} />
+                <Route path="/courses/:discipline" element={<Courses />} />
 
                 <Route path="/study-abroad" element={<StudyAbroad />} />
                 <Route path="/study-abroad/:country" element={<StudyAbroad />} />

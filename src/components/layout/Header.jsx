@@ -30,13 +30,15 @@ const Header = () => {
     },
     {
       label: 'Courses',
-      path: '/colleges/engineering',
+      path: '/courses',
       subItems: [
-        { label: 'Engineering & Technology', path: '/colleges/engineering' },
-        { label: 'Medical', path: '/colleges/medical' },
-        { label: 'Allied Healthcare', path: '/colleges/allied-healthcare' },
-        { label: 'Arts & Science', path: '/colleges/arts-science' },
-        { label: 'Law', path: '/colleges/law' },
+        { label: 'Engineering', path: '/courses/engineering' },
+        { label: 'Medical', path: '/courses/medical' },
+        { label: 'Allied Healthcare', path: '/courses/allied-healthcare' },
+        { label: 'Agriculture', path: '/courses/agriculture' },
+        { label: 'Arts & Science', path: '/courses/arts-science' },
+        { label: 'Law', path: '/courses/law' },
+        { label: 'PG', path: '/courses/pg' },
       ],
     },
     { 

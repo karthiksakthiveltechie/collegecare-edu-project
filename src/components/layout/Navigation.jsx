@@ -12,14 +12,7 @@ import {
   FiLayers,
   FiChevronDown
 } from 'react-icons/fi'
-
-const COURSE_LINKS = [
-  { label: 'Engineering & Technology', path: '/colleges/engineering' },
-  { label: 'Medical', path: '/colleges/medical' },
-  { label: 'Allied Healthcare', path: '/colleges/allied-healthcare' },
-  { label: 'Arts & Science', path: '/colleges/arts-science' },
-  { label: 'Law', path: '/colleges/law' },
-]
+import { COURSE_DISCIPLINES } from '../../data/courses'
 
 /** Desktop main nav only (lg+). Order matches header spec: Items 2–10 —
  *  Home, Colleges, Courses, Study Abroad, Services, Entrance Exams, Gallery, About Us, Contact Us.
@@ -31,10 +24,9 @@ const Navigation = () => {
     location.pathname === path ||
     location.pathname.startsWith(path + '/')
 
-  const coursesActive = COURSE_LINKS.some(
-    ({ path }) =>
-      location.pathname === path || location.pathname.startsWith(`${path}/`)
-  )
+  const coursesActive =
+    location.pathname === '/courses' ||
+    location.pathname.startsWith('/courses/')
 
   return (
     <nav
@@ -48,7 +40,7 @@ const Navigation = () => {
       </NavItem>
 
       {/* Item 3 */}
-      <NavItem to="/colleges" active={isActive('/colleges') && !coursesActive}>
+      <NavItem to="/colleges" active={isActive('/colleges')}>
         <FiBookOpen />
         Colleges
       </NavItem>
@@ -150,9 +142,9 @@ const NavCourses = ({ active }) => {
           className="absolute left-0 top-full z-[100] pt-1 min-w-[min(100vw-2rem,260px)]"
         >
           <div className="rounded-lg border shadow-lg bg-light-dropdownBg dark:bg-dark-bg border-light-border dark:border-dark-border py-1 ring-1 ring-black/5 dark:ring-white/10">
-            {COURSE_LINKS.map(({ label, path }) => (
+            {COURSE_DISCIPLINES.map(({ id, label, path }) => (
               <Link
-                key={path}
+                key={id}
                 role="menuitem"
                 to={path}
                 className="block px-4 py-2 text-sm text-light-text dark:text-gray-200 hover:bg-light-listHover dark:hover:bg-white/10 transition-colors whitespace-nowrap"
